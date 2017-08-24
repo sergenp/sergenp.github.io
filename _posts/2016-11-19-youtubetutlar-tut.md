@@ -40,19 +40,19 @@ Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz
 
 #### Physics Puzzle Game Development w/ Construct 2 Playlist thenewboston : [Physics Puzzle Game Development w/ Construct 2 Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDexNbWi0uPBP6buduUZO3Q)
  
-#### [C Programming Tutorials](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKIXv8Yr6nhGJ9Vlcjyymq)
+#### C Programming Tutorials:[C Programming Tutorials](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKIXv8Yr6nhGJ9Vlcjyymq)
  
 #### Java Game Development with Slick Playlist thenewboston : [Java Game Development with Slick Playlist](https://www.youtube.com/playlist?list=PL210C2267A8922854)
 
 #### R Programming Tutorials Playlist thenewboston : [R Programming Tutorials Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGCzVMGCPi1kwvABu7eWv08P)
 
-#### [Python GUI with Tkinter Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d)
+#### Python GUI with Tkinter Playlist : [Python GUI with Tkinter Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d)
 
-#### [Responsive Web Design Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBaTsb1nse1UU48d_q7glGT)
+#### Responsive Web Design Playlist : [Responsive Web Design Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBaTsb1nse1UU48d_q7glGT)
 
-#### [Python 3.4 Programming Tutorials](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
+#### Python 3.4 Programming Tutorials : [Python 3.4 Programming Tutorials](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
 
-#### [Pygame (Python Game Development) Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAjkwJocj7vlc_mFU-4wXJq)
+#### Pygame (Python Game Development) Playlist: [Pygame (Python Game Development) Playlist](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAjkwJocj7vlc_mFU-4wXJq)
 
 #### Node.js Tutorials for Beginners thenewboston :[ Node.js Tutorials for Beginners](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_)
 
@@ -96,7 +96,7 @@ Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz
 
 #### WordPress Tutorials Abdul Khan : [WordPress Tutorials](https://www.youtube.com/playlist?list=PL3oMl9a6mutmSV03tKWD3FA8jEuR5UdEc)
 
-#### [PHP Tutorials - YouTube](https://www.youtube.com/playlist?list=PL3oMl9a6mutnj7MgaxJaa3jPv-8aGyG6y)
+#### PHP Tutorials - YouTube : [PHP Tutorials - YouTube](https://www.youtube.com/playlist?list=PL3oMl9a6mutnj7MgaxJaa3jPv-8aGyG6y)
 
 #### PHP Registration form Abdul Khan :[ PHP Registration form (Complete)](https://www.youtube.com/playlist?list=PL3oMl9a6mutmCqVoHrhFd5LpQUbZR128v)
 
@@ -110,29 +110,29 @@ Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz
 
 #### How To Make Your First Website LevelUpTuts :[ How To Make Your First Website](https://www.youtube.com/playlist?list=PLLnpHn493BHHhCVlCRhAMpeFwDH2BTE3p)
 
-#### [PostCSS Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHFvjZzyYrQP0RTsG-Al7j9m)
+#### PostCSS Tutorials : [PostCSS Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHFvjZzyYrQP0RTsG-Al7j9m)
 
-#### [Drupal Theming - Adaptive Theme](https://www.youtube.com/playlist?list=PLLnpHn493BHHjphLKxHkqkrZ33Z0FeiMK)
+#### Drupal Theming - Adaptive Theme : [Drupal Theming - Adaptive Theme](https://www.youtube.com/playlist?list=PLLnpHn493BHHjphLKxHkqkrZ33Z0FeiMK)
 
 #### Polymer 1.0 Tutorials LevelUpTuts : [Polymer 1.0 Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHGhoGAb2PRKzv4Zw3QoatK-)
 
 #### AngularJS For Everyone LevelUpTuts : [AngularJS For Everyone](https://www.youtube.com/playlist?list=PLLnpHn493BHF6utwkwpo7RN-GPg1sZhvK)
 
-#### [Magento Community Tutorials](https://www.youtube.com/playlist?list=PL3B0BAAF482B16EAB)
+#### Magento Community Tutorials : [Magento Community Tutorials](https://www.youtube.com/playlist?list=PL3B0BAAF482B16EAB)
 
-#### [Drupal 7 Tutorials](https://www.youtube.com/playlist?list=PL15BE2E8313A4E809)
+#### Drupal 7 Tutorials : [Drupal 7 Tutorials](https://www.youtube.com/playlist?list=PL15BE2E8313A4E809)
 
-#### [Sass Tutorials LevelUpTuts](https://www.youtube.com/playlist?list=PL2CB1F80266E986EA) 
+#### Sass Tutorials LevelUpTuts : [Sass Tutorials LevelUpTuts](https://www.youtube.com/playlist?list=PL2CB1F80266E986EA) 
 
-#### [Drupal Tutorials - The Complete Omega 4 Course](https://www.youtube.com/playlist?list=PLLnpHn493BHH5nnK2dKE_42l1oXA6Tq6H)
+#### Drupal Tutorials - The Complete Omega 4 Course : [Drupal Tutorials - The Complete Omega 4 Course](https://www.youtube.com/playlist?list=PLLnpHn493BHH5nnK2dKE_42l1oXA6Tq6H)
 
-#### [Sublime Text Tutorial LevelUpTuts](https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP)
+#### Sublime Text Tutorial LevelUpTuts : [Sublime Text Tutorial](https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP)
 
 #### Android Development Tutorials LevelUpTuts : [Android Development Tutorials](https://www.youtube.com/playlist?list=PLLnpHn493BHF33bSvIA0ySchxXkrib8TK)
 
 #### Compass Tutorials LevelUpTuts :[Compass Tutorials](https://www.youtube.com/playlist?list=PL45DD77A4CCA76ED3)
 
-#### [WordPress Basics LevelUpTuts](https://www.youtube.com/playlist?list=PLC5E59DD6D84D34DC)
+#### WordPress Basics LevelUpTuts : [WordPress Basics](https://www.youtube.com/playlist?list=PLC5E59DD6D84D34DC)
 
 #### Customizing WordPress LevelUpTuts : [Customizing WordPress](https://www.youtube.com/playlist?list=PLLnpHn493BHGACfv4rC29kJamYMtw34D9)
 
@@ -156,7 +156,7 @@ Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz
 
 #### Javascript is Weird...and AWESOME LearnCode.Academy : [Javascript is Weird...and AWESOME](https://www.youtube.com/playlist?list=PLoYCgNOIyGABI011EYc-avPOsk1YsMUe_)
 
-#### [MEAN Stack LearnCode.Academy](https://www.youtube.com/playlist?list=PLoYCgNOIyGAApoDfJHjmMgGNlYenKg5jO)
+#### MEAN Stack LearnCode.Academy : [MEAN Stack](https://www.youtube.com/playlist?list=PLoYCgNOIyGAApoDfJHjmMgGNlYenKg5jO)
 
 #### Jquery LearnCode.Academy : [jQuery Tutorial for Beginners](https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_)
 
@@ -164,51 +164,51 @@ Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz
 
 #### Web Development Tutorials For Beginners LearnCode.Academy : [Web Development Tutorials For Beginners](https://www.youtube.com/playlist?list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc)
 
-#### [Developing Android Apps](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnMwH5-FNkErnnq_aSy706S)
+#### Developing Android Apps : [Developing Android Apps](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnMwH5-FNkErnnq_aSy706S)
 
-#### [Web Performance Optimization](https://www.youtube.com/playlist?list=PLAwxTw4SYaPmKmNX-INgcxQWf30KuWa_A)
+#### Web Performance Optimization : [Web Performance Optimization](https://www.youtube.com/playlist?list=PLAwxTw4SYaPmKmNX-INgcxQWf30KuWa_A)
 
-#### [HTML5 Game Development](https://www.youtube.com/playlist?list=PLAwxTw4SYaPlUUkh6txMRXE-w-6N1Z225)
+#### HTML5 Game Development : [HTML5 Game Development](https://www.youtube.com/playlist?list=PLAwxTw4SYaPlUUkh6txMRXE-w-6N1Z225)
 
-#### [Intro to jQuery - YouTube](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkk4k42lGH3l-MlojoNFBFI)
+#### Intro to jQuery : [Intro to jQuery](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkk4k42lGH3l-MlojoNFBFI)
 
-#### [Advanced Operating Systems Part 1 of 4](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkKfusBLVfklgfdcB3BNpwX)
+#### Advanced Operating Systems Part 1 of 4 : [Advanced Operating Systems Part 1 of 4](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkKfusBLVfklgfdcB3BNpwX)
 
-#### [Advanced Operating Systems Part 2 of 4](https://www.youtube.com/playlist?list=PLAwxTw4SYaPm4vV1XbFV93ZuT2saSq1hO)
+#### Advanced Operating Systems Part 2 of 4 : [Advanced Operating Systems Part 2 of 4](https://www.youtube.com/playlist?list=PLAwxTw4SYaPm4vV1XbFV93ZuT2saSq1hO)
 
-#### [Advanced Operating Systems Part 4 of 4](https://www.youtube.com/playlist?list=PLAwxTw4SYaPmfaiuzJcK3tNoeKlvRR990)
+#### Advanced Operating Systems Part 4 of 4 : [Advanced Operating Systems Part 4 of 4](https://www.youtube.com/playlist?list=PLAwxTw4SYaPmfaiuzJcK3tNoeKlvRR990)
 
-#### [Computability, Complexity, and Algortihms: Computability](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnOLuiqtLyKu08FyKdX7Dut)
+#### Computability, Complexity, and Algortihms: Computability : [Computability, Complexity, and Algortihms: Computability](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnOLuiqtLyKu08FyKdX7Dut)
 
-#### [Computability, Complexity, and Algorithms: Complexity](https://www.youtube.com/playlist?list=PLAwxTw4SYaPmdtCSyH7lMfm75KSpWMj8K)
+#### Computability, Complexity, and Algorithms: Complexity : [Computability, Complexity, and Algorithms: Complexity](https://www.youtube.com/playlist?list=PLAwxTw4SYaPmdtCSyH7lMfm75KSpWMj8K)
 
-#### [Computability, Complexity, Algorithms: Alogrithms](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkbWSEj_1iO7rILlWDJImW4)
+#### Computability, Complexity, Algorithms: Algorithms : [Computability, Complexity, Algorithms: Algorithms](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkbWSEj_1iO7rILlWDJImW4)
 
-#### [Software Development Process: Part 1 or 3](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkNAtqsKcFkUGpf4j67NBaz)
+#### Software Development Process: Part 1 or 3 : [Software Development Process: Part 1 or 3](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkNAtqsKcFkUGpf4j67NBaz)
 
-#### [Software Development Process: Part 2 of 3](https://www.youtube.com/playlist?list=PLAwxTw4SYaPm8PAGH7ov2Bj-nG4sXgCtJ)
+#### Software Development Process: Part 2 of 3 : [Software Development Process: Part 2 of 3](https://www.youtube.com/playlist?list=PLAwxTw4SYaPm8PAGH7ov2Bj-nG4sXgCtJ)
 
-#### [Software Development Process: Part 3 of 3](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkoQFThzsc9e7Fe3QV_KJCs)
+#### Software Development Process: Part 3 of 3: [Software Development Process: Part 3 of 3](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkoQFThzsc9e7Fe3QV_KJCs)
 
-#### [Interviews with Industry Experts](https://www.youtube.com/playlist?list=PLuC2HflhhpLEeySObYZSS7MUaefVm7lfc)
+#### Interviews with Industry Experts : [Interviews with Industry Experts](https://www.youtube.com/playlist?list=PLuC2HflhhpLEeySObYZSS7MUaefVm7lfc)
 
-#### [The Treehouse Show | What's new in web design and development](https://www.youtube.com/playlist?list=PLFDA5B0CD72326128)
+#### The Treehouse Show: [What's new in web design and development](https://www.youtube.com/playlist?list=PLFDA5B0CD72326128)
 
-#### [Courses - YouTube](https://www.youtube.com/playlist?list=PLuC2HflhhpLHMAaSLNe6akycrqodpz2GY)
+#### Courses : [Courses - YouTube](https://www.youtube.com/playlist?list=PLuC2HflhhpLHMAaSLNe6akycrqodpz2GY)
 
-#### [Laravel Tutorial](https://www.youtube.com/playlist?list=PL09BB956FCFB5C5FD)
+#### Laravel Tutorial : [Laravel Tutorial](https://www.youtube.com/playlist?list=PL09BB956FCFB5C5FD)
 
-#### [Ruby on Rails Tutorial](https://www.youtube.com/playlist?list=PLAC08CE3187BC75F1)
+#### Ruby on Rails Tutorial : [Ruby on Rails Tutorial](https://www.youtube.com/playlist?list=PLAC08CE3187BC75F1) -- tavsiyemdir
 
-#### [Cakephp Blog Tutorial](https://www.youtube.com/playlist?list=PL9B2E2E37CCB661D6)
+#### Cakephp Blog Tutorial : [Cakephp Blog Tutorial](https://www.youtube.com/playlist?list=PL9B2E2E37CCB661D6)
 
-#### [Cakephp Auth Component Tutorials](https://www.youtube.com/playlist?list=PL20D663BEC6319E36)
+#### Cakephp Auth Component Tutorials : [Cakephp Auth Component Tutorials](https://www.youtube.com/playlist?list=PL20D663BEC6319E36)
 
-#### [PHP PDO Tutorials Learn Database Interaction](https://www.youtube.com/playlist?list=PLlkGN-8wjPHV1mPbeoEedZqd5fvRMdcsN)
+#### PHP PDO Tutorials Learn Database Interaction : [PHP PDO Tutorials Learn Database Interaction](https://www.youtube.com/playlist?list=PLlkGN-8wjPHV1mPbeoEedZqd5fvRMdcsN)
 
-#### [SQL Tutorials Syntax Programming Database Interaction](https://www.youtube.com/playlist?list=PLlkGN-8wjPHW-N5ExHsjNVhQFC-nPBn4y)
+#### SQL Tutorials Syntax Programming Database Interaction : [SQL Tutorials Syntax Programming Database Interaction](https://www.youtube.com/playlist?list=PLlkGN-8wjPHW-N5ExHsjNVhQFC-nPBn4y)
 
-#### [Audio Workshop - Learn to program web audio using JavaScript](https://www.youtube.com/playlist?list=PLlkGN-8wjPHU8nOkwBtVusgSahMiU9-et)
+#### Audio Workshop - Learn to program web audio using JavaScript : [Audio Workshop - Learn to program web audio using JavaScript](https://www.youtube.com/playlist?list=PLlkGN-8wjPHU8nOkwBtVusgSahMiU9-et)
 
 #### [Q & A - Questions and Answers](https://www.youtube.com/playlist?list=PLlkGN-8wjPHUWmlcnl3cBKw5Q_ENjNOKw)
 
