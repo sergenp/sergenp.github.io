@@ -7,7 +7,7 @@ tags:
 - ilkprogram
 ---
 {%highlight go%}
-    fmt.Printf("ilk adam akilli program")
+    fmt.Printf("ilk adam akıllı program")
 {%endhighlight%}
 Geri sayım programı yapayım dedim.Hazır elimin altındada Go var.Problemi düşünmekten başlayalım.
 
