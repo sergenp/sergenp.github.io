@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Algoritma(V) Javascript
 categories: Javascript
+tags: 
+- algoritma
 ---
 
 Bu gönderimde bir stringin içindeki en fazla harfi olan kelimenin uzunluğunu bulma freecodecamp "challange" sini yapacağım.
