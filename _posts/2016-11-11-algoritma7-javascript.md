@@ -4,6 +4,8 @@ layout: post
 title: Algoritma(VII) Javascript
 categories: Javascript
 ---
+Bu gönderimde sonunu doğrula adlı freecodecamp "challange" sini yapacağım.
+
 ### Confirm the Ending (Sonunu Doğrula)
 
 Bize demişlerki f(x,y) li bi fonksiyon yazın x'in sonu y ise true; değilse false gönderin.Tek line da yazabilceğimiz bir kod aslında.Hemen başlıyorum:
