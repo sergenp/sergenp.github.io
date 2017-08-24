@@ -3,6 +3,8 @@ published: true
 layout: post
 title: 'Python ile Algoritmalar:Selection Sort '
 categories: Python
+tags: 
+- algoritma
 ---
 Selection short, bubble shortun biraz daha gelişmiş hali diyebiliriz, listenin üzerinden her geçişinde sadece 1 swap yapıyor. Şöyle gösterilebilir:
 
