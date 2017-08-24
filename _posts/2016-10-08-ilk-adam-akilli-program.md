@@ -3,8 +3,7 @@ published: true
 layout: post
 title: İlk Adam Akıllı Program(Ruby)
 categories: Ruby
-tags:
--Ilk Adam Akıllı Program
+tags: Ilk Adam Akıllı Program
 ---
 
 Ruby'yi yüklediğimize göre ilk adam akıllı programımızı yapabiliriz.Öyle güzel bişey beklemeyin tabii.
