@@ -8,9 +8,7 @@ tags:
 - ilkprogram
 ---
 {% highlight ruby %}
-for i in hepsi
-	p += i
-end
+puts "ilk adam akıllı program"
 {% endhighlight %}
 Ruby'yi yüklediğimize göre ilk adam akıllı programımızı yapabiliriz.Öyle güzel bişey beklemeyin tabii.    
 
