@@ -4,6 +4,8 @@ title: Java Swing nedir? (I)
 layout: post
 categories: Java
 ---
+Jave ve Swingin nasıl yüklendiğini bu gönderimde anlatacağım.
+
 ## Java ve Swing (I)
 
 Öncelikle, GUI programlama yapacağımız için, java programlama dilinin giriş kısmını bildiğimizi varsaymam gerekmekte.Bu yüzden eğer java bilginiz yoksa, ilk önce kendinizi java ile aşina etmenizi öneririm.
