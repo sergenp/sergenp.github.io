@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Algoritma(VII) Javascript
 categories: Javascript
+tags: 
+- algoritma
 ---
 Bu gönderimde sonunu doğrula adlı freecodecamp "challange" sini yapacağım.
 
