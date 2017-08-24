@@ -4,10 +4,9 @@ title: 'Java Swing nedir? (II) - JFrame,JButton,JTextField'
 layout: post
 categories: Java
 ---
-## Java Swing nedir?(II) - JFrame,JButton,JTextField
+Bu gönderimde JFrame JButton ve JTextfield ile yapabileceğiniz küçük şeyleri anlatacağım.
 
 #### JFrame
-
 İlk öncelikle JFrame hakkında 2,3 şey söylemek gerek. JFrame basitçe bizim butonlarımızın, textfieldlerimizin ve bunlar gibi daha birçok şeyin bulunduğu bir "placeholder"(yer tutucu) diyebiliriz.
 
 Bizim Main classımız şu anda bu şekilde:
