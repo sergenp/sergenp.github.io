@@ -4,6 +4,11 @@ layout: post
 title: Ruby Dökümanları
 categories: Ruby
 ---
+{% highlight ruby %}
+def ruby
+    puts "ruby ne güzel değil mi"
+end
+{% endhighlight %}
 Bu gönderimde Ruby öğrenmek , geliştirmek vb. ile ilgili bazı kaynaklar paylaşacağım.Kaynakların hepsi ingilizce onu baştan söyleyeyim.
 
 
