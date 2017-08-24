@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: İlk Adam Akıllı Program(Ruby)
-categories: Ruby
+categories: 
+- Ruby
 tags: 
 - Ilk Adam Akıllı Program
 ---
