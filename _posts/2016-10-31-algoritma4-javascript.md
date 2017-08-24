@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Algoritma(IV) Javascript
 categories: Javascript
+tags: 
+- algoritma
 ---
 ### Palindrom Bulma(a.k.a tersi ile düzü aynı; ses gibi)
 Böyle başlıyoruz:
