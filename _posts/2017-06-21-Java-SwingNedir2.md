@@ -101,8 +101,8 @@ window.frame.setVisible(true); // window.frame (yani Main classın içindeki JFr
 {% endhighlight %}
 Ve programımızı çalıştırdığımızda JFramemiz Ekranımızda istediğimiz pozisyonda ve büyüklükte açılmış bir şekilde karşımıza çıkar.
 
-<img src="/images/javaswing/javaswing2/1.png" width="807" height="636" />
-<img src="/images/javaswing/javaswing2/2.png" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/1.png" />
+<img src="/images/javaswing/javaswing2/2.png" />
 
 Tabikide açılan JFramemizde hiçbirşey yok, Peki nasıl birşeyler ekleyebiliriz?
 
@@ -111,7 +111,7 @@ Tabikide açılan JFramemizde hiçbirşey yok, Peki nasıl birşeyler ekleyebili
 
 Başlık "Thomas ve arkadaşları" gibi bişey oldu ama, yinede kabulum.Aslında JFrameye eleman eklemek çok kolay! Eclipsenin alt tarafında "Source" ve "Design" isimli 2 tane buton var. Source dediğimiz button güzelimsi ve okunaklı kodumuzu bize gösteriyor, Design butonuna tıkladığımızda ise karşımıza birsürü Swing elemanı çıkıyor.JFrameye eleman eklemek, bu elementleri çekip bırakmaktan başka birşey gerektirmiyor.İşin güzel tarafı ne zaman bir eleman eklerseniz bütün kodlar otomatikmen Main classımıza geliyor. 
 
-<img src="/images/javaswing/javaswing2/3.png" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/3.png" />
 
 Zaten milyon tane program kullandığınız için, bu elemanlar çok tanıdık gelmeli.Bütün hepsini anlatmak isterdim ama çok zahmetli, yaparken öğreniriz elbet.Ben basitlik açısından, bir Buton ve bir TextField ile ne yapabileceğimizi göstereceğim.
 
@@ -131,25 +131,25 @@ Layout kısaca düzen gibi birşey.Çeşit çeşit layoutlarımız var,
 - MigLayout
 
 gibi.Ben bu post da AbsoluteLayout kullanacağım.
-<img src="/images/javaswing/javaswing2/5.gif" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/5.gif" />
 Gördüğünüz gibi AbsoluteLayout elemanları koyacağımız yerlere karışmıyor, eğer başka layoutlar kullansaydık layoutun kendisine göre elemanları koyabileceğimiz yerler kısıtlanırdı.(Şu gifi yapmak blogu yazmaktan uzun sürdü valla)
 
 
 #### JButton ve JTextField
 
-<img src="/images/javaswing/javaswing2/4.png" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/4.png" />
 
 Bir buton 2 de TextField koyduk, ve TextFieldin birinin editable kısmını false yaptım, çünkü içine birşey girilmesini istemiyorum.
 
 TextField'e girdiğimiz String değerini alıp, diğer TextField'e tersini yazan bişey yapmak geldi.Javascript algoritmada yapmıştık eğer ona bakmışsanız. (Hangisi olduğunu hatırlamıyorum, bakmayada üşendim) 
 
 Bastık sourcemize:
-<img src="/images/javaswing/javaswing2/6.png" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/6.png" />
 
 Ve otomatik eklenen kodlarla karşı karşıyayız.Şimdi o butona bir listener(dinleyici) eklememiz gerek, dinleyiciler çeşitli olayları, örneğin mouse ile basıldı, klavyeden bi tuşa bastı, mouse ile üstüne gelinildi gibi şeyleri takip etmekle yükümlü fonksiyonlar.Ben butonuma actionListener ekleyeceğim, üstüne mouse ile basıldığında olmasını istediğim şeyleri yaptıracağım.
-<img src="/images/javaswing/javaswing2/7.png" width="807" height="636" />
-<img src="/images/javaswing/javaswing2/8.png" width="807" height="636" />
-<img src="/images/javaswing/javaswing2/9.png" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/7.png" />
+<img src="/images/javaswing/javaswing2/8.png" />
+<img src="/images/javaswing/javaswing2/9.png" />
 
 ActionListener ide eklemiş olduk.Gelelim kod kısmımıza.
 
@@ -202,7 +202,7 @@ public void actionPerformed(ActionEvent e) {
     }
 }
 {% endhighlight %}
-<img src="/images/javaswing/javaswing2/10.png" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/10.png" />
 
 ve Programımız bitmiş bulunmakta. Programımıza bir title ve icon ekleyelim.Constructor umuza gelelim
 
@@ -236,10 +236,10 @@ private void initialize() {
 	frame.getContentPane().add(textField_1);
 {% endhighlight %}
 icon.png yi şöyle atabilirsiniz:
-<img src="/images/javaswing/javaswing2/12.gif" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/12.gif" />
 
 Ve programımızın bitmiş hali:
-<img src="/images/javaswing/javaswing2/13.png" width="807" height="636" />
+<img src="/images/javaswing/javaswing2/13.png" />
 
 Ve son kodumuz:
 
