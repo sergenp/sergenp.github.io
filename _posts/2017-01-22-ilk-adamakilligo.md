@@ -6,6 +6,9 @@ categories: Golang
 tags: 
 - ilkprogram
 ---
+{%highlight go%}
+    fmt.Printf("ilk adam akilli program")
+{%endhighlight%}
 Geri sayım programı yapayım dedim.Hazır elimin altındada Go var.Problemi düşünmekten başlayalım.
 
 1. [ ] Main fonksiyonu oluştur 
