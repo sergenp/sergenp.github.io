@@ -4,7 +4,7 @@ layout: post
 title: Youtube Tutorialleri(Genel)
 categories: Cesitlilik
 ---
-**Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz youtubede programlama öğrenebileceğim ne var diye sormuş ve gelen cevap :**
+Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz youtubede programlama öğrenebileceğim ne var diye sormuş ve gelen cevap:
 
 #### Social Network with PHP Code Course : [Social Network with PHP](https://www.youtube.com/playlist?list=PLfdtiltiRHWGGxaR6uFtwZnnbcXqyq8JD)
 
