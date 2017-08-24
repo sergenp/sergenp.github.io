@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Algoritma(I) Javascript
 categories: Javascript
+tags: 
+- algoritma
 ---
 freeCodeCamp sitesinde gördüğüm algorithm challengesleri yapabildiğim kadarını yapıp burda paylaşmaya karar verdim belki bi işime(işinize) falan yarar.Seri şeklinde paylaşacağım büyük ihtimal.
 
