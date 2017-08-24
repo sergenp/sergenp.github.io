@@ -1,0 +1,90 @@
+title:
+  archive: Yazı
+  category: Kategori
+  tag: Etiketler
+  schedule: Program
+
+author: Yazar
+
+menu:
+  home: Ana Sayfa
+  archives: Bütün Yazılar
+  categories: Kategoriler
+  tags: Etiketler
+  about: Hakkımda
+  search: Ara
+  schedule: Program
+  sitemap: Site haritası
+  commonweal: "404"
+
+sidebar:
+  overview: Genel Bakış
+  toc: İçerik Tablosu
+
+post:
+  created: Yazılma tarihi
+  modified: Yazı değiştirme zamanı
+  sticky:
+  posted:
+  in:
+  more: Daha çok
+  read_more: Daha çok oku
+  untitled: Başlıksız
+  toc_empty: Bu yazıda içerik tablosu yok
+  visitors: Ziyaretçiler
+  wordcount: Yazıdaki kelime sayısı
+  min2read: Okuma zamanı
+  copyright:
+    author: Yazı Sahibi
+    link: Yazi linki
+    license_title: Lisans
+    license_content: 'Bu blogtaki tüm yazılar
+      <a href="%s" rel="external nofollow" target="_blank">%s</a> ile lisanslanmıştır.'
+
+page:
+  totally:
+  tags: Etiketler
+
+footer:
+  powered: "Sitem %s kullanıyor."
+  theme: Arayüz
+
+counter:
+  tag_cloud:
+    zero: Etiket yok
+    one: Toplamda 1 etiket var
+    other: "Toplamda %d etiket var "
+
+  categories:
+    zero: Kategori yok
+    one: Toplamda 1 kategori var
+    other: "Toplamda %d kategori var"
+
+  archive_posts:
+    zero: Yazı yok
+    one: 1 Yazı var
+    other: "Toplamda %d yazı var."
+
+state:
+  posts: Yazı
+  pages: Sayfalar
+  tags: Etiketler
+  categories: Kategori
+
+search:
+  placeholder: Aranıyor...
+
+cheers:
+  um: 
+  ok:
+  nice:
+  good:
+  great:
+  excellent:
+
+keep_on:
+
+symbol:
+  comma: ', '
+  period: '. '
+  colon: ':'
