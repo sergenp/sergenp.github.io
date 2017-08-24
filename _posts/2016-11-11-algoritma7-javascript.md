@@ -6,7 +6,12 @@ categories: Javascript
 tags: 
 - algoritma
 ---
-Bu gönderimde sonunu doğrula adlı freecodecamp "challange" sini yapacağım.
+{% highlight js %}
+function alg7(naber){
+  this.naber = naber;
+  naber(this.naber);
+}
+{% endhighlight %}
 
 ### Confirm the Ending (Sonunu Doğrula)
 
