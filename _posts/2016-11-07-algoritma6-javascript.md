@@ -6,17 +6,17 @@ categories: Javascript
 tags: 
 - algoritma
 ---
-Bu gönderimde "mutations" adlı freecodecamp "challange" sini yapacağım.
 
 ### Mutations
-
-Bu algoritmada bize verilen bir arraydaki ilk elementin, ikinci elementin harflerini içeriyormu içermiyormu diye kontrol etmemiz isteniyor.Bize verilen : 
 {% highlight js %}
 function mutation(arr) {
   return arr;
 }
 mutation(["hello", "hey"]);
 {% endhighlight %}
+
+Bu algoritmada bize verilen bir arraydaki ilk elementin, ikinci elementin harflerini içeriyormu içermiyormu diye kontrol etmemiz isteniyor. 
+
 Bize arrayın ilk iki elementi gerekiyor :
 {% highlight js %}
 function mutation(arr) {
