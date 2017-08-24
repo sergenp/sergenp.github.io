@@ -14,6 +14,7 @@ function alg7(naber){
 function naber(naber){
   alg7(naber);
 }
+alg7("Algoritma(VII) Javascript");
 {% endhighlight %}
 
 ### Confirm the Ending (Sonunu Doğrula)
