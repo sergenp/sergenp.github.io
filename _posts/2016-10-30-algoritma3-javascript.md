@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Algoritma(III) Javascript
 categories: Javascript
+tags: 
+- algoritma
 ---
 Bu gönderimde stringi ters çevirme adlı freecodecamp "challange" sini yapacağım.
 
