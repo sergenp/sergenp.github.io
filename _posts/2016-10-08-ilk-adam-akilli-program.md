@@ -7,8 +7,12 @@ categories:
 tags: 
 - ilkprogram
 ---
-
-Ruby'yi yüklediğimize göre ilk adam akıllı programımızı yapabiliriz.Öyle güzel bişey beklemeyin tabii.
+{% highlight ruby %}
+    	for i in hepsi
+		p += i
+	end
+{% endhighlight %}
+Ruby'yi yüklediğimize göre ilk adam akıllı programımızı yapabiliriz.Öyle güzel bişey beklemeyin tabii.    
 
 Liseli bi arkadaşım bana gelip :
 
@@ -27,19 +31,19 @@ Kullanıcıdan 2 tane input alıyoruz.Bunlar x ve y sayılarımız(s fonksiyonu 
 
 ![]({{site.baseurl}}/images/ilkadamakilliprogram/loop1.png)
 
-i diye bir variable çıkarıp x-1 e eşitledik.Bu, örnek olarak 2'den 100 e kadar olan sayıların toplamını alıcak olursak programın 2 yi de bu toplama dahil etmesi anlamına geliyor.Sonrası basit while döngüsü.i ye den küçükken psergen arrayına i yi ekle anlamına gelen basit bir kod.Şimdi yapmamız gereken bu arraydaki bütün i leri toplamak.
+i diye bir variable çıkarıp x-1 e eşitledik.Bu, örnek olarak 2'den 100 e kadar olan sayıların toplamını alıcak olursak programın 2 yi de bu toplama dahil etmesi anlamına geliyor.Sonrası basit while döngüsü.i ye den küçükken hepsi arrayına i yi ekle anlamına gelen basit bir kod.Şimdi yapmamız gereken bu arraydaki bütün i leri toplamak.
 
 ![]({{site.baseurl}}/images/ilkadamakilliprogram/loop2.png)
 
 Ve bitiş! Bu kadar basit.    
 {% highlight ruby %}
-    	for i in psergen
+    	for i in hepsi
 		p += i
 	end
 {% endhighlight %}
-Bu kodu açıklayacak olursak. for i in psergen satırı psergen arrayındaki bütün elementleri bulmaya yarar. Örnek verecek olursak;
+Bu kodu açıklayacak olursak. for i in hepsi satırı hepsi arrayındaki bütün elementleri bulmaya yarar. Örnek verecek olursak;
 
-psergen =[1,2,3,4] olursa 
+hepsi =[1,2,3,4] olursa 
 i sırasıyla 
 i=1, i=2, i=3, i=4 değerlerini alır.
 
@@ -57,7 +61,7 @@ i = 4 oldu. Bunu p ye ekledik ---> p = 10 oldu.
 
 En sonundada puts #{"p"} yi kullanarak p değişkenini kullanıcıya gösterdik. Bu kadar! İlk adam akıllı programımızı yaptık. Tabiki bu programımızı geliştirebiliriz.Örneğin eğer ilk girilen sayı 1 ise bunun oklid midir gaus mudur bi adamın bulduğu (güzelim lise yıllarımı bu formüllerle harap ettim) (x * x+1) / 2 diye bi formül var.If else kullanarak bunu yazdığımız ifadeye ekleyebiliriz.
 
-Bu arada eğer adam gelipte sayı girceği yere fsewtsdctr fln yazarsa en başta x.to_i yazdığımız kod string değerlerini 0 a dönüştürüyor.Bir if statement daha yazıp eğer x 0 sa kodu yanlış girdi vb yapabilirsiniz. Ben bunların hepsinin yapılmış halini şuracığa ekleyimde kalsın.
+Bu arada eğer adam gelipte sayı girceği yere fsewtsdctr fln yazarsa en başta x.to_i yazdığımız kod string değerlerini 0 a dönüştürüyor.Bir if statement daha yazıp eğer x 0 sa kodu yanlış girdi vb yapabilirsiniz. Ben bunların fnin yapılmış halini şuracığa ekleyimde kalsın.
 {% highlight ruby %}
 
 def s
@@ -97,15 +101,15 @@ def sergen
 	s
 	puts "#{e}'den #{a}'e kadar olan tamsayıların toplamı" # kullanıcıya gösterelim hangi sayıları girdiğini belki unutur gerçi bunu göstermesek adam programın ne yaptığını bilmiycek o ayrı mesele
 	s 
-		psergen = [] #array ismi bulamama keyfi sayılar[] yazabilirdim hepsi[] fln ama yok neden psergen olmasın
-		i = e - 1 # neden? çünkü öyle istedim
+		hepsi = []
+		i = e - 1 
 		
 		while i<a do
 		i += 1
-		psergen.push(i)
+		hepsi.push(i)
 		end
 		p=0
-		for i in psergen # psergen.each() do |s| daha havalı ama biz böyle öğrendik başta napalım
+		for i in hepsi # hepsi.each() do |s| daha havalı ama biz böyle öğrendik başta napalım
 			if a>100 # adam 20 den 649239 a kadar olan sayıların toplamını fln girer şimdi o kadar sayıyı ekrana put lamaya gerek yok
 				p+=i
 			else
@@ -119,7 +123,6 @@ def sergen
 		puts "= " +"#{p}"
 	end
 end
-
 
 sergen
 
