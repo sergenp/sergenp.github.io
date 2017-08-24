@@ -4,6 +4,8 @@ layout: post
 title: Algoritma(VI) Javascript
 categories: Javascript
 ---
+Bu gönderimde "mutations" adlı freecodecamp "challange" sini yapacağım.
+
 ### Mutations
 
 Bu algoritmada bize verilen bir arraydaki ilk elementin, ikinci elementin harflerini içeriyormu içermiyormu diye kontrol etmemiz isteniyor.Bize verilen : 
