@@ -6,6 +6,13 @@ categories: Javascript
 tags: 
 - algoritma
 ---
+{% highlight js %}
+function main(){
+  alg3 = "Javascript ve Algoritma(I)";
+  console.log(alg3);
+}
+{% endhighlight %}
+
 Bu gönderimde stringi ters çevirme adlı freecodecamp "challange" sini yapacağım.
 
 ### Stringi ters çevirme
