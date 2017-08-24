@@ -3,6 +3,8 @@ published: true
 layout: post
 categories: Python
 title: 'Python ile Algoritmalar:Bubblesort '
+tags: 
+- algoritma
 ---
 Algoritmaları öğrenmek için en iyi dilin python olduğuna karar verdim, öğrenmesi çok kolay, syntax derdi yok, binlerce librarisi var, yapamayacağınız hiçbişey yok. Tabii sorunlarıda mevcut. Bu konulara girmeden algoritmamız olan The Bubble Sort u inceleyelim.
 
