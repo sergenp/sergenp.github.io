@@ -6,7 +6,14 @@ categories: Javascript
 tags: 
 - algoritma
 ---
-freeCodeCamp sitesinde gördüğüm algorithm challengesleri yapabildiğim kadarını yapıp burda paylaşmaya karar verdim belki bi işime(işinize) falan yarar.Seri şeklinde paylaşacağım büyük ihtimal.
+{% highlight js %}
+function main(){
+  alg1 = "Javascript ve Algoritma(I)"
+  console.log(alg1);
+}
+{% endhighlight %}
+
+freeCodeCamp sitesinde gördüğüm algorithm challangesleri yapabildiğim kadarını yapıp burda paylaşmaya karar verdim belki bi işime(işinize) falan yarar.Seri şeklinde paylaşacağım büyük ihtimal.
 
 Bütün algoritmalar challengeler(Türkçe'sini tam bulamadım zorluklar havlamak falan yazıyordu google çeviride tam anlamına gelmiyo gibime geldi.) javascript ile yapılmakta. 
 
