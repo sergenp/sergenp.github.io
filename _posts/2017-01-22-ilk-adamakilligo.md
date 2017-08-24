@@ -3,6 +3,8 @@ published: true
 layout: post
 title: İlk Adam Akıllı Program(Go)
 categories: Golang
+tags: 
+- ilkprogram
 ---
 Geri sayım programı yapayım dedim.Hazır elimin altındada Go var.Problemi düşünmekten başlayalım.
 
