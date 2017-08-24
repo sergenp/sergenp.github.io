@@ -5,7 +5,7 @@ layout: post
 categories: Java
 ---
 {%highlight java%}
-import javax.swing.JFrame;
+import javax.swing.*;
 {%endhighlight%}
 Jave ve Swingin nasıl yüklendiğini bu gönderimde anlatacağım.
 
