@@ -8,8 +8,8 @@ tags:
 ---
 {% highlight js %}
 function main(){
-  alg3 = "Javascript ve Algoritma(I)";
-  console.log(alg3);
+  alg3 = "Javascript ve Algoritma(III)";
+  return alg3;
 }
 {% endhighlight %}
 
