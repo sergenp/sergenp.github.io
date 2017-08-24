@@ -5,7 +5,7 @@ title: İlk Adam Akıllı Program(Ruby)
 categories: 
 - Ruby
 tags: 
-- Ilk Adam Akıllı Program
+- ilkprogram
 ---
 
 Ruby'yi yüklediğimize göre ilk adam akıllı programımızı yapabiliriz.Öyle güzel bişey beklemeyin tabii.
