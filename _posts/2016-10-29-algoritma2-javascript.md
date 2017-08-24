@@ -6,6 +6,12 @@ categories: Javascript
 tags: 
 - algoritma
 ---
+{% highlight js %}
+function main(){
+  alg2 = "Javascript ve Algoritma(I)"
+  alert(alg2);
+}
+{% endhighlight %}
 
 Bu gönderimde çocukluğumda en sevdiğim matematik işlemi olan faktöriyel adlı freecodecamp "challange" sini yapacağım.
 
