@@ -4,6 +4,9 @@ title: Java Swing nedir? (I)
 layout: post
 categories: Java
 ---
+{%highlight java%}
+import javax.swing.JFrame;
+{%endhighlight%}
 Jave ve Swingin nasıl yüklendiğini bu gönderimde anlatacağım.
 
 ## Java ve Swing (I)
