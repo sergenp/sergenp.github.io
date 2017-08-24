@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Algoritma(VI) Javascript
 categories: Javascript
+tags: 
+- algoritma
 ---
 Bu gönderimde "mutations" adlı freecodecamp "challange" sini yapacağım.
 
