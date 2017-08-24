@@ -8,7 +8,7 @@ tags:
 ---
 {% highlight js %}
 function main(){
-  alg2 = "Javascript ve Algoritma(I)";
+  alg2 = "Javascript ve Algoritma(II)";
   alert(alg2);
 }
 {% endhighlight %}
