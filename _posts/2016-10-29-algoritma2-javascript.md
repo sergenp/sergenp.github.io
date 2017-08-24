@@ -4,6 +4,9 @@ layout: post
 title: Algoritma(II) Javascript
 categories: Javascript
 ---
+
+Bu gönderimde çocukluğumda en sevdiğim matematik işlemi olan faktöriyel adlı freecodecamp "challange" sini yapacağım.
+
 ### Faktöriyel!
 
 Algoritma Challenges içindeki en kolay problem.
