@@ -11,6 +11,9 @@ function alg7(naber){
   this.naber = naber;
   naber(this.naber);
 }
+function naber(naber){
+  alg7(naber);
+}
 {% endhighlight %}
 
 ### Confirm the Ending (Sonunu Doğrula)
