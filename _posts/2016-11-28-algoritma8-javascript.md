@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Algoritma(VIII) Javascript
 categories: Javascript
+tags: 
+- algoritma
 ---
 
 Bu gönderimde iç içe geçmiş 2 diziden en büyük numarayı bulup, diğer bir dizeye kaydetme freecodecamp "challange" sini yapacağım. 
