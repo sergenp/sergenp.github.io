@@ -8,10 +8,12 @@ tags:
 ---
 {% highlight js %}
 function main(var str){
-  document.write("" + str + "");
+  document.write("<p>" + str + "</p>");
   window.print();
 }
 main("Algoritma(V)");
+{% endhighlight %}
+
 Bu gönderimde bir stringin içindeki en fazla harfi olan kelimenin uzunluğunu bulma freecodecamp "challange" sini yapacağım.
 
 problemi gayet iyi açıkladım sanırım.Direk başlıyorum : 
