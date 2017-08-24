@@ -4,6 +4,12 @@ title: 'Java Swing nedir? (II) - JFrame,JButton,JTextField'
 layout: post
 categories: Java
 ---
+{% highlight java %}
+public static void main(String[] args){
+    System.out.println("Sergen resmin ne güzel ya");
+}
+{% endhighlight %}
+
 Bu gönderimde JFrame JButton ve JTextfield ile yapabileceğiniz küçük şeyleri anlatacağım.
 
 #### JFrame
