@@ -4,6 +4,9 @@ layout: post
 title: Algoritma(VIII) Javascript
 categories: Javascript
 ---
+
+Bu gönderimde iç içe geçmiş 2 diziden en büyük numarayı bulup, diğer bir dizeye kaydetme freecodecamp "challange" sini yapacağım. 
+
 ### Return Largest Numbers in Arrays 
 
 Verilen:
