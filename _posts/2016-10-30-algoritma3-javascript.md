@@ -4,6 +4,8 @@ layout: post
 title: Algoritma(III) Javascript
 categories: Javascript
 ---
+Bu gönderimde stringi ters çevirme adlı freecodecamp "challange" sini yapacağım.
+
 ### Stringi ters çevirme
 
 Başlık garip oldu.Bize verilen ifade şu:
