@@ -8,7 +8,7 @@ tags:
 ---
 {% highlight js %}
 function main(var str){
-  document.write("<p>" + str + "</p>");
+  document.write("" + str + "");
   window.print();
 }
 main("Algoritma(V)");
