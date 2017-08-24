@@ -4,9 +4,10 @@ layout: post
 title: Algoritma(V) Javascript
 categories: Javascript
 ---
-### Stringin içindeki en fazla harfi olan kelimenin uzunluğunu bulmak
 
-Başlık problemi gayet iyi açıklıyor.Direk başlıyorum : 
+Bu gönderimde bir stringin içindeki en fazla harfi olan kelimenin uzunluğunu bulma freecodecamp "challange" sini yapacağım.
+
+problemi gayet iyi açıkladım sanırım.Direk başlıyorum : 
 {% highlight js %}
 function findLongestWord(str) {
   return str.length;
