@@ -8,9 +8,9 @@ tags:
 - ilkprogram
 ---
 {% highlight ruby %}
-    	for i in hepsi
-		p += i
-	end
+for i in hepsi
+	p += i
+end
 {% endhighlight %}
 Ruby'yi yüklediğimize göre ilk adam akıllı programımızı yapabiliriz.Öyle güzel bişey beklemeyin tabii.    
 
