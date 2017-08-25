@@ -17,7 +17,7 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(new GridLayout(3, 1, 0, 0)); // gridlayout kullanıyorum,
-        // kendisi güzeldir baya, onuda elbet bir yazımızda bahsederiz
+        // kendisi güzeldir baya, elbet bir yazımız da ondan da bahsederiz.
         ImageIcon resim =  new ImageIcon(Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")); // javanın kendi resmini arakladım bir resmimiz olduğunu düşünelim
 		JLabel etiket1 = new JLabel("Resim ve Yazı",
                       resim,
