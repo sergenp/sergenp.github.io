@@ -9,7 +9,7 @@ public static void main(String[] args){
     System.out.println("Sergen resmin ne güzel ya");
 }
 {% endhighlight %}
-Bu gönderimde JFrame JButton ve JTextfield ile yapabileceğiniz küçük şeyleri anlatacağım.
+Bu gönderimde JFrame JButton ve JTextField ile yapabileceğiniz küçük şeyleri anlatacağım.
 
 #### JFrame
 İlk öncelikle JFrame hakkında 2,3 şey söylemek gerek. JFrame basitçe bizim butonlarımızın, textfieldlerimizin ve bunlar gibi daha birçok şeyin bulunduğu bir "placeholder"(yer tutucu) diyebiliriz.
