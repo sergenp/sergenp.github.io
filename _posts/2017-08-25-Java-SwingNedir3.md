@@ -11,5 +11,5 @@ Kolaylık açısından bu elemanları gösterirken Absolute Layout kullanacağı
 
 #### JLabel
 
-Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, başka elemanları etiketlemeye yarıyor.
+Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, etiketlemeye yarıyor.
 
