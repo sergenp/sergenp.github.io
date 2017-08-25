@@ -21,7 +21,8 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().setLayout(new GridLayout(3, 1, 0, 0)); // gridlayout kullanıyorum,
+		frame.getContentPane().setLayout(new GridLayout(3, 1, 0, 0)); 
+        // gridlayout kullanıyorum,
         // kendisi güzeldir baya, elbet bir yazımızda ondan da bahsederiz.
         ImageIcon resim =  new ImageIcon(
         	Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")
