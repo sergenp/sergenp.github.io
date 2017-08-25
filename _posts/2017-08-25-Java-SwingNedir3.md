@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: Java Swing(III) - JSwing elemanları
 category: Java
