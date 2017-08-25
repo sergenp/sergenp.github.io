@@ -26,7 +26,7 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
     // kendisi güzeldir baya, elbet bir yazımızda ondan da bahsederiz.
     ImageIcon resim =  new ImageIcon(
         Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")
-    ); // javanın kendi resmini arakladım bir resmimiz olduğunu düşünelim
+    ); // javanın kendi resmini arakladım
 	JLabel etiket1 = new JLabel("Resim ve Yazı",
                  resim,
                  JLabel.CENTER);
