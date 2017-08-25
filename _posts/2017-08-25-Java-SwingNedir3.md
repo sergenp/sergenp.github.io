@@ -16,7 +16,7 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
 
 {%highlight java%}
   ImageIcon resim = createImageIcon("resim/s.gif"); // s.gif diye bir resmimiz olduğunu düşünelim
-  etiket1 = new JLabel("Image and Text",
+  JLabel etiket1 = new JLabel("Image and Text",
                       icon,
                       JLabel.CENTER);
                       
@@ -27,9 +27,11 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
   etiket1.setHorizontalTextPosition(JLabel.CENTER); // yatay olarak karemizin ortasına
   // konumlandırmış oluyoruz yazımızı
   
-  etiket2 = new JLabel("Sadece Yazı"); // sadece yazılı bir etiket
-  etiket2 = new JLabel(resim);  // sadece resimli bir etiket
+  JLabel etiket2 = new JLabel("Sadece Yazı"); // sadece yazılı bir etiket
+  JLabel etiket3 = new JLabel(resim);  // sadece resimli bir etiket
 {%endhighlight%}
+Yukarıdaki kodumuzun sonucu şöyle birşey oluyor:
+
 
 Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda şöyle yapabilirsiniz:
 {%highlight java%}
