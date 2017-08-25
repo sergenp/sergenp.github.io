@@ -3,6 +3,8 @@ published: true
 title: 'Java Swing nedir? (II) - JFrame,JButton,JTextField'
 layout: post
 categories: Java
+tags:
+  - swing
 ---
 {% highlight java %}
 public static void main(String[] args){
