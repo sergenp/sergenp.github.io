@@ -1,6 +1,15 @@
 ---
 published: false
 ---
-## A New Post
+{%highlight java%}
+//JLabel,JComboBox,JCheckBox,JRadioButton,JToggleButton,JTextArea,JFormattedTextField,JPasswordField,
+//JTextPane,JEditorPane,JSpinner,JList,JTable,JTree,JProgressBar,JScroolBar,JSeperator,JSlider
+{%endhighlight%}
+Hah, "Swing components" lerden kalan yukarıda yazanlarıda bu yazıda halledelim.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Kolaylık açısından bu elemanları gösterirken Absolute Layout kullanacağım.
+
+#### JLabel
+
+Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, başka elemanları etiketlemeye yarıyor.
+
