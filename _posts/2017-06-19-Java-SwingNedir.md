@@ -3,6 +3,8 @@ published: true
 title: Java Swing nedir? (I)
 layout: post
 categories: Java
+tags:
+  - swing
 ---
 {%highlight java%}
 import javax.swing.*;
@@ -46,9 +48,3 @@ Gerisi sanki oyun indirmişsinizde setupunu yapıyormuşcasına, next,lisans kab
 ![]({{site.baseurl}}/images/javaswing/adim7.jpg)
 
 Vee ilk GUI programımız oluşmuş olmaktadır.Java Swing nedir(II) ve daha sonralarında nasıl editleyeceğimizi göstereceğim.
-
-
-
-
-
-
