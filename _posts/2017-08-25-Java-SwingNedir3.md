@@ -7,27 +7,31 @@ published: false
 {%endhighlight%}
 Hah, "Swing components" lerden kalan yukarıda yazanlarıda bu yazıda halledelim.
 
-Kolaylık açısından bu elemanları gösterirken Absolute Layout kullanacağım.
-
 #### JLabel
 
 Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, etiketlemeye yarıyor.
 Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
 
 {%highlight java%}
-	//...//
-	ImageIcon resim = new ImageIcon("resim/s.gif"); // s.gif diye bir resmimiz olduğunu düşünelim
-	etiket1 = new JLabel("Resim ve Yazı",
-                  new ImageIcon(Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")),
-                  JLabel.CENTER);
-	//etiketimizi iconumuzun olduğu konuma göre yerini belirliyoruz.
-	//resmimiz ve yazımızı bir kare olarak düşünürsek, 
-	etiket1.setVerticalTextPosition(JLabel.BOTTOM); // dikey olarak karemizin en altına
-	etiket1.setHorizontalTextPosition(JLabel.CENTER); // yatay olarak karemizin ortasına
-	// konumlandırmış oluyoruz yazımızı
-	etiket2 = new JLabel("Sadece Yazı"); // sadece yazılı bir etiket
-	etiket3 = new JLabel(resim);  // sadece resimli bir etiket
-    //...//
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(new GridLayout(3, 1, 0, 0));
+		ImageIcon resim =  new ImageIcon(Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")); // javanın kendi resmini arakladım bir resmimiz olduğunu düşünelim
+		JLabel etiket1 = new JLabel("Resim ve Yazı",
+                      resim,
+                      JLabel.CENTER);
+		//etiketimizi iconumuzun olduğu konuma göre yerini belirliyoruz.
+		//resmimiz ve yazımızı bir kare olarak düşünürsek, 
+		etiket1.setVerticalTextPosition(JLabel.BOTTOM); // dikey olarak karemizin en altına
+		etiket1.setHorizontalTextPosition(JLabel.CENTER); // yatay olarak karemizin ortasına
+		// konumlandırmış oluyoruz yazımızı
+  
+		JLabel etiket2 = new JLabel("Sadece Yazı"); // sadece yazılı bir etiket
+		JLabel etiket3 = new JLabel(resim,JLabel.CENTER);  // sadece resimli bir etiket
+		frame.getContentPane().add(etiket1);
+		frame.getContentPane().add(etiket2);
+		frame.getContentPane().add(etiket3);
 {%endhighlight%}
 Yukarıdaki kodumuzun sonucu şöyle birşey oluyor:
 ![]({{site.baseurl}}images/javaswing/javaswing3/1.png)
