@@ -9,7 +9,7 @@ Hah, "Swing components" lerden kalan yukarıda yazanlarıda bu yazıda halledeli
 
 Kolaylık açısından bu elemanları gösterirken Absolute Layout kullanacağım.
 
-### JLabel
+#### JLabel
 
 Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, etiketlemeye yarıyor.
 Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
