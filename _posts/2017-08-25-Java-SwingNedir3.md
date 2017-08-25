@@ -15,6 +15,7 @@ Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, etiketl
 Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
 
 {%highlight java%}
+	//...//
 	ImageIcon resim = new ImageIcon("resim/s.gif"); // s.gif diye bir resmimiz olduğunu düşünelim
 	etiket1 = new JLabel("Resim ve Yazı",
                   new ImageIcon(Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")),
@@ -26,7 +27,7 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
 	// konumlandırmış oluyoruz yazımızı
 	etiket2 = new JLabel("Sadece Yazı"); // sadece yazılı bir etiket
 	etiket3 = new JLabel(resim);  // sadece resimli bir etiket
-    
+    //...//
 {%endhighlight%}
 Yukarıdaki kodumuzun sonucu şöyle birşey oluyor:
 
