@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+layout: post
+title: Java Swing(III) - JSwing elemanları
+category: Java
+tags:
+  - swing
 ---
 {%highlight java%}
 //JLabel,JComboBox,JCheckBox,JRadioButton,JToggleButton,JTextArea,JFormattedTextField,JPasswordField,
