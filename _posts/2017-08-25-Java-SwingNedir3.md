@@ -30,7 +30,7 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
     //...//
 {%endhighlight%}
 Yukarıdaki kodumuzun sonucu şöyle birşey oluyor:
-
+![]({{site.baseurl}}images/javaswing/javaswing3/1.png)
 
 Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda şöyle yapabilirsiniz:
 {%highlight java%}
