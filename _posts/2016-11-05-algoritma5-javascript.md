@@ -7,7 +7,7 @@ tags:
 - algoritma
 ---
 {% highlight js %}
-function main(var str){
+function main(str){
   document.write("<p>" + str + "</p>");
   window.print();
 }
