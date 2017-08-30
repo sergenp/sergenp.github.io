@@ -101,7 +101,15 @@ Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol e
 	public void itemStateChanged(ItemEvent arg0) {
 		Object kaynak = arg0.getItemSelectable();
 		if(kaynak == chckBox) {
-			// istediğinizi burda yapınız
+        	// istediğinizi burda yapınız
+            // mesela chckBox işaretlimi değilmi bakabiliriz:
+        	System.out.println(chckBox.isSelected());
+			if(chckBox.isSelected()){
+            	// eğer seçilmişse, istediğinizi burda yapın
+            }
+            else{
+            	// eğer seçilmemişse, istediğinizi burda yapın
+            }
 		}
 	}
 {%endhighlight%}
