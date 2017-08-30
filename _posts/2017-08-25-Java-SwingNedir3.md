@@ -113,6 +113,8 @@ Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol e
 		}
 	}
 {%endhighlight%}
+Ve sonuçumuz:
+<img src="/images/javaswing/javaswing2/2.gif" />
 
 
 
