@@ -85,3 +85,21 @@ Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda ş
 #### JCheckBox
 Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutucukları kısacası.Kullanımlarıda çok kolay.CheckBox ları aynı buton kullanır gibi kullanabiliriz.
 
+
+{%highlight java%}
+		JCheckBox chckBox = new JCheckBox("foo"); // "foo" adlı bir checkbox ekledik
+		chckBox.setBounds(75, 87, 129, 23);
+{%endhighlight%}
+
+
+
+
+
+
+
+
+
+
+
+
+
