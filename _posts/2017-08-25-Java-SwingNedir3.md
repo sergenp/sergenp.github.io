@@ -12,6 +12,37 @@ tags:
 {%endhighlight%}
 Hah, "Swing components" lerden kalan yukarıda yazanlarıda bu yazıda halledelim.
 
+Bu yazıda çekirdek olarak şöyle bir kodla başladığımızı farzediyorum, ve eklediğim şeyler genellikle initalize() altında olacak:
+{%highlight java%}
+	private JFrame frame;
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					JSwingElemanComboBox window = new JSwingElemanComboBox();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public JSwingElemanComboBox() {
+		initialize();
+	}
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+{%endhighlight%}
 #### JLabel
 
 Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, etiketlemeye yarıyor.
