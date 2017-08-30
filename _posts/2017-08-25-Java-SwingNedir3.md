@@ -50,3 +50,7 @@ Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda ş
 {%highlight java%}
 	etiket.setLabelFor(herhangiBirSwingElemanı);
 {%endhighlight%}
+
+#### JComboBox
+
+
