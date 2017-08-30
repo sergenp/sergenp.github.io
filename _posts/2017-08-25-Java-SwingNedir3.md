@@ -97,12 +97,14 @@ Classımızın ["ItemListener Interface"](https://docs.oracle.com/javase/7/docs/
 Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol edebiliriz:
 
 {%highlight java%}
-public void itemStateChanged(ItemEvent e) {
-	// seçtiğimiz objeyi kaynak adlı değişkene atıyoruz
-    Object kaynak = e.getItemSelectable();
-	if(chckBox = )
-    
-}{%endhighlight%}
+	@Override
+	public void itemStateChanged(ItemEvent arg0) {
+		Object kaynak = arg0.getItemSelectable();
+		if(kaynak == chckBox) {
+			// istediğinizi burda yapınız
+		}
+	}
+{%endhighlight%}
 
 
 
