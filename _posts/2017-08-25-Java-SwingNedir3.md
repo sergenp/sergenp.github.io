@@ -92,7 +92,7 @@ Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutu
         chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden yararlanacağız
 {%endhighlight%}
 
-Classımızın "ItemListener Interface" sini ["implement"](http://selimkaratas.com.tr/wp/javada-interface.html) etmeli.
+Classımızın ["ItemListener Interface"](https://docs.oracle.com/javase/7/docs/api/java/awt/event/ItemListener.html) sini ["implement"](http://selimkaratas.com.tr/wp/javada-interface.html) etmeli.
 
 
 
