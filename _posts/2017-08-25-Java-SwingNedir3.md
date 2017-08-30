@@ -86,10 +86,10 @@ Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda ş
 Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutucukları kısacası.Kullanımlarıda çok kolay.CheckBox ları aynı buton kullanır gibi kullanabiliriz.
 
 {%highlight java%}
-		// chckBox bir class variable olarak tanımlı
-		chckBox = new JCheckBox("foo"); // "foo" adlı bir checkbox ekledik
-		chckBox.setBounds(75, 87, 129, 23);
-        chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden yararlanacağız
+	// chckBox bir class variable olarak tanımlı
+	chckBox = new JCheckBox("foo"); // "foo" adlı bir checkbox ekledik
+	chckBox.setBounds(75, 87, 129, 23);
+    chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden yararlanacağız
 {%endhighlight%}
 
 Classımızın ["ItemListener Interface"](https://docs.oracle.com/javase/7/docs/api/java/awt/event/ItemListener.html) sini ["implement"](http://selimkaratas.com.tr/wp/javada-interface.html) etmeli.
