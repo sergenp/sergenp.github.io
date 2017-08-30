@@ -89,9 +89,10 @@ Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutu
 {%highlight java%}
 		JCheckBox chckBox = new JCheckBox("foo"); // "foo" adlı bir checkbox ekledik
 		chckBox.setBounds(75, 87, 129, 23);
+        chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden yararlanacağız
 {%endhighlight%}
 
-
+Classımızın "ItemListener Interface" sini "implement" etmeli.
 
 
 
