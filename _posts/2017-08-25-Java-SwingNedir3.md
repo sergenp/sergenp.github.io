@@ -219,4 +219,4 @@ initialize methodumuz bu oldu.
 	}); 
 {%endhighlight%}
 Gördüğünüz gibi tamamdır.Ve sonucumuz:
-<video src="/images/javaswing/javaswing3/5.mp4" />
+<video autoplay src="/images/javaswing/javaswing3/5.mp4" />
