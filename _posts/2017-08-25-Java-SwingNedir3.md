@@ -124,7 +124,6 @@ JComboBox bize seçmemiz için birden fazla seçenek sunuyor.Şöyle ki:
 	JComboBox cmbBox = new JComboBox(diller); // yukarıda ki dillerin olduğu bir combobox yaptık
 	cmbBox.setBounds(75, 87, 129, 23);
     frame.getContentPane().add(cmbBox);
-
 yararlanacağız
 {%endhighlight%}
 <img src="/images/javaswing/javaswing3/3.png" />
