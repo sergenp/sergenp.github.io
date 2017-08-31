@@ -30,21 +30,21 @@ Java için güzel olan bir başka editör ise [Netbeans](https://netbeans.org/do
 Resimlerle adım adım anlatmaya çalışacağım.
 
 ##### Adım 1:
-![]({{site.baseurl}}/images/javaswing/adim1.jpg)
+![]({{site.baseurl}}/images/javaswing/javaswing1/adim1.jpg)
 ##### Adım 2:
 Gelen pencereden aşşağıdaki linki seçiyoruz, Benim eclipse versiyonum Neon olduğu için Neon linki var,Eğer daha yeni versiyonları kullanıyorsanız ona göre ad almaktalar. 
-![]({{site.baseurl}}/images/javaswing/adim2.jpg)
+![]({{site.baseurl}}/images/javaswing/javaswing1/adim2.jpg)
 ##### Adım 3:
 Biraz bekledikten sonra önümüze binbir çeşit klasör geliyor, bizim ilgi alanımız General Purpose Tools içinde açıyoruz ve şu gerekli seçimleri yapıyoruz:
-![]({{site.baseurl}}/images/javaswing/adim3.jpg)
+![]({{site.baseurl}}/images/javaswing/javaswing1/adim3.jpg)
 (Tabi ben daha önce bu yüklemeyi yaptığım için benim eclipsemde yoktu,bende bu resmi google resimlerden arakladım)
 
 Gerisi sanki oyun indirmişsinizde setupunu yapıyormuşcasına, next,lisans kabul, finish.En sonundada sizden eclipseyi yeniden başlatmanız istenecek.Bunada evet diyoruz.
 
 #### İlk Swing Projesi
-![]({{site.baseurl}}/images/javaswing/adim4.jpg)
-![]({{site.baseurl}}/images/javaswing/adim5.jpg)
-![]({{site.baseurl}}/images/javaswing/adim6.jpg)
-![]({{site.baseurl}}/images/javaswing/adim7.jpg)
+![]({{site.baseurl}}/images/javaswing/javaswing1/adim4.jpg)
+![]({{site.baseurl}}/images/javaswing/javaswing1/adim5.jpg)
+![]({{site.baseurl}}/images/javaswing/javaswing1/adim6.jpg)
+![]({{site.baseurl}}/images/javaswing/javaswing1/adim7.jpg)
 
 Vee ilk GUI programımız oluşmuş olmaktadır.Java Swing nedir(II) ve daha sonralarında nasıl editleyeceğimizi göstereceğim.
