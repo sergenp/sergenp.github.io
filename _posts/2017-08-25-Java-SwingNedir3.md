@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-title: Java Swing(III) - JSwing elemanları
+title: Java Swing(III) - JSwing elemanları(Part 1)
 category: Java
 tags:
   - swing
