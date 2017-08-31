@@ -222,3 +222,4 @@ initialize methodumuz bu oldu.
 		}); 
 {%endhighlight%}
 Gördüğünüz gibi tamamdır.Ve sonucumuz:
+<img src="/images/javaswing/javaswing3/5.gif" />
