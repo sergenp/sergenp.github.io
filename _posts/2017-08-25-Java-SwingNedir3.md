@@ -82,6 +82,9 @@ Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda ş
 	etiket.setLabelFor(herhangiBirSwingElemanı);
 {%endhighlight%}
 
+### Buton Stilleri
+Buton gibi kullanacağımız elemanlara geçiyorum.
+
 #### JCheckBox
 Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutucukları kısacası.Kullanımlarıda çok kolay.CheckBox ları aynı buton kullanır gibi kullanabiliriz.
 
@@ -116,15 +119,8 @@ Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol e
 Ve sonuçumuz:
 <img src="/images/javaswing/javaswing2/2.gif" />
 
-
-
-
-
-
-
-
-
-
+#### JComboBox
+JComboBox bize 
 
 
 
