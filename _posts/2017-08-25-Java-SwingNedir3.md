@@ -212,7 +212,7 @@ initialize methodumuz bu oldu.
 	cmbBox.addActionListener(new ActionListener() {
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
-            txtrTrke.setText((String) cmbBox.getSelectedItem());
+			txtrTrke.setText((String) cmbBox.getSelectedItem());
 			passwordField.setText((String) cmbBox.getSelectedItem());
 			formattedTextField.setText((String) cmbBox.getSelectedItem());
 		}
