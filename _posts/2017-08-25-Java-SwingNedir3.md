@@ -153,7 +153,7 @@ JTextFieldden tek farkı bu:
 #### JPasswordField
 Şifre girme işlemi gibi işlemlerde yardımcı oluyor.Girdiğiniz herşey * dönüşüyor.
 
-##### Hepsini kullanalım
+#### Hepsini kullanalım
 JComboBox la birleştirelim yukardaki 3 şeyi.JComboBox da seçilen şeyleri göstersinler.
 {%highlight java%}
 		txtrTrke = new JTextArea();
