@@ -213,11 +213,12 @@ initialize methodumuz bu oldu.
 Şimdi actionListenerimizi amacımıza göre yoğuralım.
 {%highlight java%}
 		cmbBox.addActionListener(new ActionListener() {
-
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println(cmbBox.getSelectedItem());
+            	txtrTrke.setText((String) cmbBox.getSelectedItem());
+				passwordField.setText((String) cmbBox.getSelectedItem());
+				formattedTextField.setText((String) cmbBox.getSelectedItem());
 			}
-			
-		});
+		}); 
 {%endhighlight%}
+Gördüğünüz gibi tamamdır.Ve sonucumuz:
