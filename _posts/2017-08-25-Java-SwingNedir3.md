@@ -120,7 +120,10 @@ Ve sonuçumuz:
 <img src="/images/javaswing/javaswing2/2.gif" />
 
 #### JComboBox
-JComboBox bize 
+
+JComboBox bize seçmemiz için birden fazla seçenek sunuyor.Şöyle ki:
+<img src="/images/javaswing/javaswing2/3.png" />
+
 
 
 
