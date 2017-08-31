@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'Java Swing nedir? (II) - JFrame,JButton,JTextField'
+title: 'Java Swing (II) - JFrame,JButton,JTextField'
 layout: post
 categories: Java
 tags:
