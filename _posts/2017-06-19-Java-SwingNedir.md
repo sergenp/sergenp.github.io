@@ -1,6 +1,6 @@
 ---
 published: true
-title: Java Swing nedir? (I)
+title: Java Swing (I)
 layout: post
 categories: Java
 tags:
