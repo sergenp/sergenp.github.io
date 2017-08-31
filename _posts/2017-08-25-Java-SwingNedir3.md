@@ -89,7 +89,7 @@ Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutu
 	// chckBox bir class variable olarak tanımlı
 	chckBox = new JCheckBox("foo"); // "foo" adlı bir checkbox ekledik
 	chckBox.setBounds(75, 87, 129, 23);
-    chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden yararlanacağız
+    chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden 
 {%endhighlight%}
 
 Classımızın ["ItemListener Interface"](https://docs.oracle.com/javase/7/docs/api/java/awt/event/ItemListener.html) sini ["implement"](http://selimkaratas.com.tr/wp/javada-interface.html) etmeli.
