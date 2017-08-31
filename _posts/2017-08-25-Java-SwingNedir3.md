@@ -43,7 +43,7 @@ Bu yazıda çekirdek olarak şöyle bir kodla başladığımızı farzediyorum, 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 {%endhighlight%}
-#### JLabel
+### JLabel
 
 Label, adı üstünde etiket, bu güzel kolay kullanımlı elemanımız, etiketlemeye yarıyor.
 Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
@@ -82,7 +82,7 @@ Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda ş
 	etiket.setLabelFor(herhangiBirSwingElemanı);
 {%endhighlight%}
 
-#### JCheckBox
+### JCheckBox
 Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutucukları kısacası.Kullanımlarıda çok kolay.CheckBox ları aynı buton kullanır gibi kullanabiliriz.
 
 {%highlight java%}
@@ -116,7 +116,7 @@ Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol e
 Ve sonuçumuz:
 <img src="/images/javaswing/javaswing3/2.gif" />
 
-#### JComboBox
+### JComboBox
 
 JComboBox bize seçmemiz için birden fazla seçenek sunuyor.Şöyle ki:
 {%highlight java%}
