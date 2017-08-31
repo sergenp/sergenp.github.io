@@ -7,8 +7,8 @@ tags:
   - swing
 ---
 {%highlight java%}
-//JLabel,JComboBox,JCheckBox,JRadioButton,JToggleButton,JTextArea,JFormattedTextField,JPasswordField,
-//JTextPane,JEditorPane,JSpinner,JList,JTable,JTree,JProgressBar,JScroolBar,JSeperator,JSlider
+//JLabel,JComboBox,JCheckBox,JRadioButton,JTextArea,JFormattedTextField,JPasswordField,
+//JTextPane,JEditorPane,JSpinner,JList,JTable,JProgressBar,JScroolBar,JSlider
 {%endhighlight%}
 Hah, "Swing components" lerden kalan yukarıda yazanlarıda bu yazıda halledelim.
 
@@ -140,4 +140,17 @@ ActionListener ["implementleyip"](http://selimkaratas.com.tr/wp/javada-interface
 {%endhighlight%}
 Ve sonucumuz:
 <img src="/images/javaswing/javaswing3/4.gif" />
+
+### JTextArea,JFormattedTextField,JPasswordField
+Bunları anlatmaya nerdeyse hiç gerek yok, kısaca 2 cümleyle geçeceğim.
+
+#### JTextArea
+JTextFieldin büyütülmüş hali gibi düşünebilirsiniz.
+
+#### JFormattedTextField
+JTextFieldden tek farkı bu:
+[Stackoverflow da sorulmuş bir soru](https://stackoverflow.com/questions/21190260/jformattedtextfield-instead-of-jtextfield)
+
+#### JPasswordField
+Şifre girme işlemi gibi işlemlerde yardımcı oluyor.Girdiğiniz herşey * dönüşüyor.
 
