@@ -127,3 +127,17 @@ JComboBox bize seçmemiz için birden fazla seçenek sunuyor.Şöyle ki:
 yararlanacağız
 {%endhighlight%}
 <img src="/images/javaswing/javaswing3/3.png" />
+
+ActionListener ["implementleyip"](http://selimkaratas.com.tr/wp/javada-interface.html) cmbBox daki hangi elemanı seçtiğimizi alabiliriz.Şöyle ki:
+
+{%highlight java%}
+		cmbBox.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println(cmbBox.getSelectedItem());
+			}
+		});
+{%endhighlight%}
+Ve sonucumuz:
+<img src="/images/javaswing/javaswing3/4.gif" />
+
