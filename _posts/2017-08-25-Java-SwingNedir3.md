@@ -52,12 +52,12 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
 	frame = new JFrame();
 	frame.setBounds(100, 100, 450, 300);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	frame.getContentPane().setLayout(new GridLayout(3, 1, 0, 0)); 
-    // gridlayout kullanıyorum,
-    // kendisi güzeldir baya, elbet bir yazımızda ondan da bahsederiz.
-    ImageIcon resim =  new ImageIcon(
-        Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")
-    ); // javanın kendi resmini arakladım
+	frame.getContentPane().setLayout(new GridLayout(3, 1, 0, 0));
+	// gridlayout kullanıyorum,
+	// kendisi güzeldir baya, elbet bir yazımızda ondan da bahsederiz.
+	ImageIcon resim =  new ImageIcon(
+		Main.class.getResource("/javax/swing/plaf/basic/icons/JavaCup16.png")
+		); // javanın kendi resmini arakladım
 	JLabel etiket1 = new JLabel("Resim ve Yazı",
                  resim,
                  JLabel.CENTER);
@@ -89,7 +89,7 @@ Açma kapama düğmesi gibi, yada boolean gibi düşünebilirsiniz.Tik atma kutu
 	// chckBox bir class variable olarak tanımlı
 	chckBox = new JCheckBox("foo"); // "foo" adlı bir checkbox ekledik
 	chckBox.setBounds(75, 87, 129, 23);
-    chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden 
+	chckBox.addItemListener(this); // Bu sefer ItemListener interfacesinden 
 {%endhighlight%}
 
 Classımızın ["ItemListener Interface"](https://docs.oracle.com/javase/7/docs/api/java/awt/event/ItemListener.html) sini ["implement"](http://selimkaratas.com.tr/wp/javada-interface.html) etmeli.
@@ -102,14 +102,14 @@ Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol e
 		Object kaynak = arg0.getItemSelectable();
 		if(kaynak == chckBox) {
         	// istediğinizi burda yapınız
-            // mesela chckBox işaretlimi değilmi bakabiliriz:
+		// mesela chckBox işaretlimi değilmi bakabiliriz:
         	System.out.println(chckBox.isSelected());
 			if(chckBox.isSelected()){
-            	// eğer işaretliyse, istediğinizi burda yapın
-            }
-            else{
-            	// eğer işaretli değilse, istediğinizi burda yapın
-            }
+			// eğer işaretliyse, istediğinizi burda yapın
+			}
+			else{
+			// eğer işaretli değilse, istediğinizi burda yapın
+			}
 		}
 	}
 {%endhighlight%}
@@ -123,7 +123,7 @@ JComboBox bize seçmemiz için birden fazla seçenek sunuyor.Şöyle ki:
 	String[] diller = {"Türkçe","İngilizce","Fransızca","Almanca","Rusça"};
 	JComboBox cmbBox = new JComboBox(diller); // yukarıda ki dillerin olduğu bir combobox yaptık
 	cmbBox.setBounds(75, 87, 129, 23);
-    frame.getContentPane().add(cmbBox);
+	frame.getContentPane().add(cmbBox);
 {%endhighlight%}
 <img src="/images/javaswing/javaswing3/3.png" />
 
