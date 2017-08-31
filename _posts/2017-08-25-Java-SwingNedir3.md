@@ -156,7 +156,57 @@ JTextFieldden tek farkı bu:
 
 ##### Hepsini kullanalım
 JComboBox la birleştirelim yukardaki 3 şeyi.JComboBox da seçilen şeyleri göstersinler.
+{%highlight java%}
+		txtrTrke = new JTextArea();
+		txtrTrke.setText("Türkçe");
+		txtrTrke.setBounds(75, 162, 175, 53);
+		frame.getContentPane().add(txtrTrke);
+		frame.getContentPane().add(cmbBox);
+		
+		passwordField = new JPasswordField();
+		passwordField.setBounds(75, 243, 175, 19);
+		frame.getContentPane().add(passwordField);
+		
+		formattedTextField = new JFormattedTextField();
+		formattedTextField.setBounds(75, 138, 169, 19);
+		frame.getContentPane().add(formattedTextField);
+{%endhighlight%}
 
+Hepsini ekledim
+
+{%highlight java%}
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.getContentPane().setLayout(null);
+		
+		String[] diller = {"Türkçe","İngilizce","Fransızca","Almanca","Rusça"};
+		JComboBox cmbBox = new JComboBox(diller); // yukarıda ki dillerin olduğu bir combobox yaptık
+		cmbBox.setBounds(75, 87, 129, 23);
+		cmbBox.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println(cmbBox.getSelectedItem());
+			}
+			
+		});
+		
+		txtrTrke = new JTextArea();
+		txtrTrke.setText("Türkçe");
+		txtrTrke.setBounds(75, 162, 175, 53);
+		frame.getContentPane().add(txtrTrke);
+		frame.getContentPane().add(cmbBox);
+		
+		passwordField = new JPasswordField();
+		passwordField.setBounds(75, 243, 175, 19);
+		frame.getContentPane().add(passwordField);
+		
+		formattedTextField = new JFormattedTextField();
+		formattedTextField.setBounds(75, 138, 169, 19);
+		frame.getContentPane().add(formattedTextField);
+	}
+{%endhighlight%}
 
 
 
