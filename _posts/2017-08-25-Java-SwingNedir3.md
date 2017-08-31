@@ -7,8 +7,8 @@ tags:
   - swing
 ---
 {%highlight java%}
-//JLabel,JComboBox,JCheckBox,JRadioButton,JTextArea,JFormattedTextField,JPasswordField,
-//JTextPane,JEditorPane,JSpinner,JList,JTable,JProgressBar,JScroolBar,JSlider
+//JLabel,JComboBox,JCheckBox,,JTextArea,JFormattedTextField,JPasswordField (Part1)
+//JRadioButton,JTextPane,JEditorPane,JSpinner,JList,JTable,JProgressBar,JScroolBar,JSlider(Part2)
 {%endhighlight%}
 Hah, "Swing components" lerden kalan yukarıda yazanlarıda bu yazıda halledelim.
 
