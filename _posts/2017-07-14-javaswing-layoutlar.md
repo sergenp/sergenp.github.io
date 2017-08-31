@@ -1,6 +1,6 @@
 ---
 published: false
-title: Java Swing(IV) - Layoutlar
+title: Java Swing (V) - Layoutlar
 layout: post
 categories: Java
 ---
