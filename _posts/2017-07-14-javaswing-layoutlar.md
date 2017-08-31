@@ -25,7 +25,7 @@ Geçen postumda kullandığım layout.En sevdiğim layouttur, hiçbir kısıtlam
 
 Absolute layoutta hiçbirşeyin boyutu veya yeri değişmez.Yani eğer bir JFrameyi alıp büyütürseniz, butonlardır textlerdir kısacası JFrame elementleridir, hiçbirinin boyutu yeni JFrame boyutuna uyum sağlamaz ve oldukları yerde kalırlar.Yani:
 
-<video src="/images/javaswing/javaswing4/1.mp4" autoplay muted loop width="807" height="636"></video>
+<img src="/images/javaswing/javaswing5/1.gif"></img>
 {% highlight java %}
 frame.setLayout(null); // null layout Absolute layoutu temsil ediyor. 
 {% endhighlight %}
@@ -40,11 +40,11 @@ Border layoutta ekran North(Kuzey),East(Doğu),West(Batı),South(Güney),Center(
 
 Siz bu 5 parçaya bölünmüş ekrana tam olarak, evet yanlış duymadınız, tam olarak 5 tane element yerleştirebiliyosunuz.Bu istediğiniz JFrame elementi olabilir.Border layout elementlerin (x,y,width,height) özelliklerini otomatikmen bizim için ayarlıyor.Yani üstte görülen durum bizi pek ilgilendirmiyor.
 
-<img src="/images/javaswing/javaswing4/2.png" width="807" height="636"></img>
+<img src="/images/javaswing/javaswing4/2.png"></img>
 
 Bu şekilde istediğiniz elementi istediğiniz köşeye ekleyebilirsiniz.Veya daha kolayı design ı kullanın.Ben 5 buton ekledim ve JFramenin boyutunu değiştirince şöyle bir görüntü oluştu:
 
-<video src="/images/javaswing/javaswing4/3.mp4" autoplay muted loop width="807" height="636"></video>
+<img src="/images/javaswing/javaswing5/3.gif"></img>
 
 
 ## Box Layout
