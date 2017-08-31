@@ -210,5 +210,14 @@ Hepsini ekledim
 
 initialize methodumuz bu oldu.
 
+Şimdi actionListenerimizi amacımıza göre yoğuralım.
+{%highlight java%}
+		cmbBox.addActionListener(new ActionListener() {
 
-
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println(cmbBox.getSelectedItem());
+			}
+			
+		});
+{%endhighlight%}
