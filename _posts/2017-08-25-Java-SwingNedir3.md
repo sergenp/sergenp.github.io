@@ -75,7 +75,7 @@ Etiketi bir resimle, sadece yazıyla veya sadece resimle kullanabilirsiniz.
         
 {%endhighlight%}
 Yukarıdaki kodumuzun sonucu şöyle birşey oluyor:
-<img src="/images/javaswing/javaswing2/1.png" />
+<img src="/images/javaswing/javaswing3/1.png" />
 
 Genellikle etiketler başka bir elemanı açıklamak için kullanılır.Onuda şöyle yapabilirsiniz:
 {%highlight java%}
@@ -117,12 +117,12 @@ Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol e
 	}
 {%endhighlight%}
 Ve sonuçumuz:
-<img src="/images/javaswing/javaswing2/2.gif" />
+<img src="/images/javaswing/javaswing3/2.gif" />
 
 #### JComboBox
 
 JComboBox bize seçmemiz için birden fazla seçenek sunuyor.Şöyle ki:
-<img src="/images/javaswing/javaswing2/3.png" />
+<img src="/images/javaswing/javaswing3/3.png" />
 
 
 
