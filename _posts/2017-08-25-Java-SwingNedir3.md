@@ -108,10 +108,10 @@ Oluşturulan method da ise chckBox umuzun seçili olup olmadığınız kontrol e
             // mesela chckBox işaretlimi değilmi bakabiliriz:
         	System.out.println(chckBox.isSelected());
 			if(chckBox.isSelected()){
-            	// eğer seçilmişse, istediğinizi burda yapın
+            	// eğer işaretliyse, istediğinizi burda yapın
             }
             else{
-            	// eğer seçilmemişse, istediğinizi burda yapın
+            	// eğer işaretli değilse, istediğinizi burda yapın
             }
 		}
 	}
