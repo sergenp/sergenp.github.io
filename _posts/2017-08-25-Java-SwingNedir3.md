@@ -121,7 +121,7 @@ Ve sonuçumuz:
 JComboBox bize seçmemiz için birden fazla seçenek sunuyor.Şöyle ki:
 {%highlight java%}
 	String[] diller = {"Türkçe","İngilizce","Fransızca","Almanca","Rusça"};
-	JComboBox cmbBox = new JComboBox(); // "bar" adlı bir checkbox ekledik
+	JComboBox cmbBox = new JComboBox(diller); // yukarıda ki dillerin olduğu bir combobox yaptık
 	cmbBox.setBounds(75, 87, 129, 23);
     cmbBox.addItemListener(this); // Bu sefer ItemListener interfacesinden yararlanacağız
 {%endhighlight%}
