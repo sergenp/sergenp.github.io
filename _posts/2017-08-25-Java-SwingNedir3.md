@@ -208,5 +208,7 @@ Hepsini ekledim
 	}
 {%endhighlight%}
 
+initialize methodumuz bu oldu.
+
 
 
