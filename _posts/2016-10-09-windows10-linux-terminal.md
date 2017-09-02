@@ -2,7 +2,9 @@
 published: true
 layout: post
 title: Windows 10'da Linux Terminal kullanmak
-categories: Cesitlilik
+categories: Cesitli
+tags: 
+ - windows
 ---
 Gelelim söz verdiğim bloğa.Windowsta Linux bash terminal nasıl kullanılır.Neden kullanmak istiyeceğinizi bilmiyorum ama yinede anlatayım ben.İlk önce bu anlatacağım yöntem benim bildiğim kadarıyla sadece windows 10 için. Anlatmaya başlayayım:
 
