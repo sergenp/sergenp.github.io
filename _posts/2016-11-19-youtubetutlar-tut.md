@@ -2,7 +2,9 @@
 published: true
 layout: post
 title: Youtube Tutorialleri(Genel)
-categories: Cesitlilik
+categories: Cesitli
+tags:
+ - youtube
 ---
 Quora.com da gezerken rastladığım bir yorumu sizlerle paylaşayım.Bir abimiz youtubede programlama öğrenebileceğim ne var diye sormuş ve gelen cevap:
 
