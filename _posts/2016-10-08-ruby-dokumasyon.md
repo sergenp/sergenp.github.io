@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Ruby Dökümanları
 categories: Ruby
+tags:
+ - youtube
 ---
 {% highlight ruby %}
 def ruby
