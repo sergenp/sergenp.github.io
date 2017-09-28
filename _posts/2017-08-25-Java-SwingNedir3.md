@@ -22,7 +22,7 @@ Bu yazıda çekirdek olarak şöyle bir kodla başladığımızı farzediyorum, 
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					JSwingElemanComboBox window = new JSwingElemanComboBox();
+					JSwingElemanlar window = new JSwingElemanlar();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -34,7 +34,7 @@ Bu yazıda çekirdek olarak şöyle bir kodla başladığımızı farzediyorum, 
 	/**
 	 * Create the application.
 	 */
-	public JSwingElemanComboBox() {
+	public JSwingElemanlar() {
 		initialize();
 	}
 	private void initialize() {
