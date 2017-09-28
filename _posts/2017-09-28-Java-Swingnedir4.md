@@ -1,5 +1,9 @@
 ---
 published: false
+layout: post
+tags: '-swing'
+categories: Java
+title: Java Swing(IV) - JSwing elemanları(Part 2)
 ---
 ## A New Post
 
