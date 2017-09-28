@@ -4,7 +4,7 @@ layout: post
 title: Ruby Nasıl Yüklenir?
 categories: Ruby
 ---
-İlk gönderim ruby nasıl yüklenir hakkında olmalı diye düşündüm madem ruby tip trickleriyle başlıycam neden yüklenmesini göstermeyim dimi? 
+İlk gönderim ruby nasıl yüklenir hakkında olmalı diye düşündüm madem programlamaya bu dille başlıyoruz dimi? 
 
 Linux da iseniz ruby yi yüklemek çook kolay.Terminali açıp
 
