@@ -53,14 +53,14 @@ public class Main {
 {% endhighlight %}
 Burdaki:
 {% highlight java %}
-	public Main() {
-		initialize();
-	}
-	private void initialize() {
-		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	}
+public Main() {
+	initialize();
+}
+private void initialize() {
+	frame = new JFrame();
+	frame.setBounds(100, 100, 450, 300);
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+}
 {% endhighlight %}
 
 Kısmımız ne zaman bir Main classı oluşturursak
@@ -79,18 +79,18 @@ frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // JFrameyi kapattığım�
 Demekten ibaret.
 
 {% highlight java %}
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Main window = new Main();
-					window.frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
+public static void main(String[] args) {
+	EventQueue.invokeLater(new Runnable() {
+		public void run() {
+			try {
+				Main window = new Main();
+				window.frame.setVisible(true);
+			} catch (Exception e) {
+				e.printStackTrace();
 			}
-		});
-	}
+		}
+	});
+}
 {% endhighlight %}
 
 Java dosyamızıda compile edip çalıştırdığımızda, 
@@ -178,7 +178,6 @@ public void actionPerformed(ActionEvent e) {
     	String girilenString = textField.getText();
         String tersCevrilmis = tersCevir(girilenString);
         // şimdi bir Stringi tersine döndüren bir Java fonksiyonu yazalım
-        
     }
 }
 {% endhighlight %}
@@ -213,23 +212,23 @@ private void initialize() {
 	frame.setBounds(100, 100, 450, 300);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	frame.getContentPane().setLayout(null);
-    // setTitle ile Programın başlığı geliyor
+	// setTitle ile Programın başlığı geliyor
 	frame.setTitle("String ters çevirici");
-    // setIconImage ile de JFramemizin iconunu belirliyoruz.
+	// setIconImage ile de JFramemizin iconunu belirliyoruz.
 	frame.setIconImage(new ImageIcon(Main.class.getResource("icon.png")).getImage());
-    // tabii bu icon.png'yi Main.class ımızın olduğu klasöre atmamız gerek.
-    
+	// tabii bu icon.png'yi Main.class ımızın olduğu klasöre atmamız gerek.
+
 	JButton btnNewButton = new JButton("Bana Bas");
 	btnNewButton.setBounds(258, 50, 126, 40);
 	frame.getContentPane().add(btnNewButton);
 	btnNewButton.addActionListener(this);
 	btnNewButton.setActionCommand("cevir");
-		
+
 	textField = new JTextField();
 	textField.setBounds(64, 50, 126, 40);
 	frame.getContentPane().add(textField);
 	textField.setColumns(10);
-		
+
 	textField_1 = new JTextField();
 	textField_1.setEditable(false);
 	textField_1.setColumns(10);
