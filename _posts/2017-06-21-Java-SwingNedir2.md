@@ -166,7 +166,7 @@ btnNewButton.setActionCommand("cevir"); // ActionListener implementlediğimizde 
 {% highlight java %}
 @Override
 public void actionPerformed(ActionEvent e) {
-	if(e.getActionCommand() == "cevir"){ /* eğer ActionListenerden gelen command(setActionCommand ile 												* sağladığımız command) cevir e eşitse şunları yap */
+	if(e.getActionCommand() == "cevir"){ /* eğer ActionListenerden gelen command(setActionCommand ile sağladığımız command) cevir e eşitse şunları yap */
     }
 }
 {% endhighlight %}
