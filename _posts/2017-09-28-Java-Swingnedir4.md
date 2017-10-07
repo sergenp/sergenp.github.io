@@ -79,6 +79,23 @@ resimLabel.setIcon() komutuyla resmimizi yerleştirebiliriz.
 {%highlight java%}
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
+		switch(arg0.getActionCommand()) {
+			case "Timsah":
+	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/timsah.jpg")));
+	        	break;
+			case "Kuş":
+	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
+				break;
+			case "Ejderha":
+	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
+				break;
+			case "Penguen":
+	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
+				break;
+			default:
+				break;
+		}
+    	
 	}
 {%endhighlight%}
 
