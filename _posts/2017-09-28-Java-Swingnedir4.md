@@ -201,3 +201,27 @@ Burdaki baslat fonksiyonumuz yeni bir thread başlatıcak, progress barımıza r
 	private Thread progressThread = null;
 {%endhighlight%}
 Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz gerekecek.
+{%highlight java%}
+
+	public void baslat() {
+		progressThread = new Thread(new Runnable() {
+			int surec = 0;
+			@Override
+			public void run() {
+				while(surec < 100) {
+					try {
+						Random rand = new Random();
+						int  n = rand.nextInt(10) + 1;
+						surec += n;
+						progressBar.setValue(surec);
+						Thread.sleep(500);
+					} catch (InterruptedException e) {
+						return;
+					}
+
+				}
+			}
+		});
+		progressThread.start();
+	}
+{%endhighlight%}
