@@ -104,3 +104,5 @@ resimLabel.setIcon() komutuyla resmimizi yerleştirebiliriz.
 
 Bahsetmeye gerek duymuyorum. JTextPane JEditorPanenin gelişmiş versiyonu diyebiliriz.Zaten ilk yazımda JTextPane kullanmıştım. Şurda farklarını anlatan çok güzel bir soru-cevap gerçekleşmiş:
 [JTextPane vs JEditorPane](https://stackoverflow.com/questions/19093851/jeditorpane-vs-jtextpane)
+
+### JSpinner
