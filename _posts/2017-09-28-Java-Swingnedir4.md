@@ -240,10 +240,10 @@ JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı
 {%highlight java%}
 	JTextArea textArea = new JTextArea();
 	textArea.setLineWrap(true);
-	textArea.setBounds(10, 11, 120, 65);
 		
 	JScrollPane Jspane = new JScrollPane(textArea);
 	Jspane.setBounds(10, 11, 120, 65);
 
 	frame.getContentPane().add(Jspane);
 {%endhighlight%}
+Gördüğünüz gibi ScrollPane eklediğimiz elemanı "frame" e eklemiyoruz, ScrollPane nin kendisini ekliyoruz, bunu yaptığımızda otomatikmen zaten o elemanda eklenmiş oluyor. Yani JTextArea burda, ScrollPane'nin "Child" ı oluyor.
