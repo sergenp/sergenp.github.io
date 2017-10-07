@@ -61,3 +61,23 @@ Artık bunlara bi işlevsellik ekleyebiliriz.Mesela herhangi birini seçtiğimiz
 	radyoButonu3.addActionListener(this);
 	radyoButonu4.addActionListener(this);
 {%endhighlight%}
+Resimlerimizi tutmak için de bir JLabel ekledim
+
+Hiçbir butonumuza ActionCommand eklemediğimiz için, varsayılan ActionCommand ları Butonumuzun Text içeriği olur.Yani:
+{%highlight java%}
+radyoButonu1.getActionCommand() == "Kuş";
+radyoButonu2.getActionCommand() == "Timsah";
+.
+.
+.
+{%endhighlight%}
+
+{%highlight java%}
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+    	if(arg0.getActionCommand()
+	}
+{%endhighlight%}
+
+
+
