@@ -248,3 +248,29 @@ JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı
 {%endhighlight%}
 Gördüğünüz gibi ScrollPane eklediğimiz elemanı "frame" e eklemiyoruz, ScrollPane nin kendisini ekliyoruz, bunu yaptığımızda otomatikmen zaten o elemanda eklenmiş oluyor. Yani JTextArea burda, ScrollPane'nin "Child" ı oluyor.Ve bu kod böyle çalışıyor:
 <img src="/images/javaswing/javaswing4/6.gif" />
+
+### JSlider
+
+JSliderlar ise size bir "Bar" veriyor, onu yukarı aşağı kaydırdığınız zaman da bir "value" veriyor.Mesela bilgisayarınızın sesini açıp kapattığınızda kullandığınız elemanlar Slider olarak adlandırılıyor.
+
+{%highlight java%}
+		JSlider slider = new JSlider();
+		slider.setOrientation(SwingConstants.VERTICAL);
+		slider.setBounds(10, 11, 26, 239);
+		frame.getContentPane().add(slider);
+		
+		JLabel lblNewLabel = new JLabel("");
+		lblNewLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+		lblNewLabel.setBounds(46, 83, 62, 69);
+		frame.getContentPane().add(lblNewLabel);
+		lblNewLabel.setText(String.format("%d",slider.getValue()));
+		
+        // ChangeListener == Değişim Dinleyicisi
+		slider.addChangeListener(new ChangeListener() {
+			@Override
+			public void stateChanged(ChangeEvent arg0) {
+				lblNewLabel.setText(String.format("%d",slider.getValue()));
+			}
+		});
+{%endhighlight%}
+<img src="/images/javaswing/javaswing4/7.gif" />
