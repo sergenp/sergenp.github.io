@@ -109,3 +109,7 @@ Bahsetmeye gerek duymuyorum. JTextPane JEditorPanenin gelişmiş versiyonu diyeb
 
 JComboBox u hatırlarsınız. Temelde aynı şeyler. Açıkcası hiç kullanmadım. Her zaman JComboBox kullandım. Aralarında pek fark yok zaten.Ama buradan daha fazla bilgi alabilirsiniz.
 [JSpinner](http://docs.oracle.com/javase/tutorial/uiswing/components/spinner.html)
+
+### JList
+
+JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi hazırlıyorsunuz.Bu model listesine istediğiniz türden elementi koyma hakkınız var.
