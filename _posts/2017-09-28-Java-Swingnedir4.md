@@ -11,6 +11,7 @@ title: Java Swing(IV) - JSwing elemanları(Part 2)
 {% endhighlight %}
 
 Bu yazımda da şu kalan elemanları anlatacağım ne iş yaparlar nereye giderler falandır filandır.
+Kolaylık açısından AbsoluteLayout kullanacağım.Ama bir uygulama yaparken AbsoluteLayout'u size kesinlikle tavsiye etmem.
 
 
 ### JRadioButton
