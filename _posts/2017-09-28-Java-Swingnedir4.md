@@ -153,3 +153,17 @@ Veya JList modelini String olarak alıp, O stringe çift tıkladığımızda bir
 (MP3 player tarzında, ki github hesabımda bulabilirsiniz. [MP3 Player](https://github.com/sergenp/Minimal-Java-Projects/tree/master/mp3Player) Herhangi bir eklentiyi hoşnutlukla karşılarım.)
 
 ### JTable
+{%highlight java%}
+	table = new JTable();
+	table.setModel(new DefaultTableModel(
+		new Object[][] {
+			{"sergen", "pekşen", "00000000000"},
+			{"mahmut", "yanyatan", "00000000000"},
+			{"rudik", "ulutur", "00000000000"},
+		},
+		new String[] {
+			"İsim", "Soyisim", "TelNo"
+		}
+	));
+		table.setBounds(10, 10, 200, 200);
+{%endhighlight%}
