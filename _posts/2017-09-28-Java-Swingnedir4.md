@@ -236,5 +236,5 @@ Sonucumuz şöyle birşey oluyor:
 
 ### JScrollBar
 
-ScroolBar denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextPanemize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextPane mize ScrollBar eklersek, TextPane mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence:
+ScroolBar denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextArea mize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextArea mize ScrollBar eklersek, TextArea mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence:
 
