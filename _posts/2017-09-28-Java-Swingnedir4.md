@@ -106,3 +106,5 @@ Bahsetmeye gerek duymuyorum. JTextPane JEditorPanenin gelişmiş versiyonu diyeb
 [JTextPane vs JEditorPane](https://stackoverflow.com/questions/19093851/jeditorpane-vs-jtextpane)
 
 ### JSpinner
+
+JComboBox u hatırlarsınız. Temelde aynı şeyler. Açıkcası hiç kullanmadım. Her zaman JComboBox kullandım. Aralarında pek fark yok zaten.
