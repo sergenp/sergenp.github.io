@@ -151,3 +151,5 @@ Burdan gördüğünüz üzere listemizden seçtiğimiz herhangi bir elementle b�
 Veya JList modelini ImageIcon olarak alıp, herhangi bir elemana tıkladığımızda başka bir elemanın resmini değiştirebiliriz.
 Veya JList modelini String olarak alıp, O stringe çift tıkladığımızda bir müzik dosyasının açılmasını sağlayabiliriz!
 (MP3 player tarzında, ki github hesabımda bulabilirsiniz. [MP3 Player](https://github.com/sergenp/Minimal-Java-Projects/tree/master/mp3Player) Herhangi bir eklentiyi hoşnutlukla karşılarım.)
+
+### JTable
