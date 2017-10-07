@@ -52,3 +52,5 @@ private void initialize() {
 	group.add(radyoButonu4);
 }
 {%endhightlight%}
+<img src="/images/javaswing/javaswing4/1.gif" />
+
