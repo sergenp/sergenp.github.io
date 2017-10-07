@@ -51,6 +51,13 @@ private void initialize() {
 	group.add(radyoButonu3);
 	group.add(radyoButonu4);
 }
-{%endhightlight%}
+{%endhighlight%}
 <img src="/images/javaswing/javaswing4/1.gif" />
 Artık bunlara bi işlevsellik ekleyebiliriz.Mesela herhangi birini seçtiğimizde bize değişik resimler versin.ActionListeneri hatırlarsınız.Onu implement ediyoruz.
+
+{%highlight java%}
+	radyoButonu1.addActionListener(this);
+	radyoButonu2.addActionListener(this);
+	radyoButonu3.addActionListener(this);
+	radyoButonu4.addActionListener(this);
+{%endhighlight%}
