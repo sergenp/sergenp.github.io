@@ -19,3 +19,5 @@ Kolaylık açısından AbsoluteLayout kullanacağım.Ama bir uygulama yaparken A
 Taa eski radyolarda bulunan bu butonlar kanal değiştirme icabı gibi birşey görürdü.Bir satırda bulunan 5 düğme olurdu, bunlardan herhangi birine basınca diğeri otomatikmen atardı.Yani aynı anda sadece bir aktif radyo butonu olabilirdi.
 
 Ahada bu mantık tamda bizim mantığımız.
+
+Ama bu mantığı kullanmadan önce ilk önce bize bir ButtonGroup denen java classı gerek.Bu gruba bütün JRadioButton larımızı koyacağız.
