@@ -127,5 +127,4 @@ list.setModel(new AbstractListModel<String>() {
 });
 list.setBounds(10, 10, 100, 240);
 frame.getContentPane().add(list);
-	    
 {%endhighlight%}
