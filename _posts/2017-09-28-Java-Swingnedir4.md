@@ -215,9 +215,9 @@ Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz g
                     	// rastgele bir sayı oluşturmak için Random classımızı kulanmamız gerekiyor.
 						Random rand = new Random();
 						int  n = rand.nextInt(10) + 1; // 1,10 arası rastgele bir sayı.
-						surec += n;
-						progressBar.setValue(surec);
-						Thread.sleep(500);
+						surec += n; // Her loop umuzda surec int imiz 1 ila 10 arası artıyor.
+						progressBar.setValue(surec); // bu sürecide progress bar valuesi olarak atıyoruz.
+						Thread.sleep(500); // en sonunda Threadimizi 0.5 saniye uyutuyoruz, yani teknik olarak while loopumuzu her 0.5 saniyede bir çalıştırıyoruz.
 					} catch (InterruptedException e) {
 						return;
 					}
@@ -225,6 +225,7 @@ Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz g
 				}
 			}
 		});
+        // en sonunda bu threadi başlatmamız gerekiyor.Bunuda bu şekilde yapıyoruz
 		progressThread.start();
 	}
 {%endhighlight%}
