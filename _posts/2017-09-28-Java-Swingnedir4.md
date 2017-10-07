@@ -238,12 +238,12 @@ Sonucumuz şöyle birşey oluyor:
 
 JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextArea mize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextArea mize ScrollBar eklersek, TextArea mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence:
 {%highlight java%}
-JTextArea textArea = new JTextArea();
-textArea.setLineWrap(true);
-textArea.setBounds(10, 11, 120, 65);
+	JTextArea textArea = new JTextArea();
+	textArea.setLineWrap(true);
+	textArea.setBounds(10, 11, 120, 65);
 		
-JScrollPane Jspane = new JScrollPane(textArea);
-Jspane.setBounds(10, 11, 120, 65);
+	JScrollPane Jspane = new JScrollPane(textArea);
+	Jspane.setBounds(10, 11, 120, 65);
 
-frame.getContentPane().add(Jspane);
+	frame.getContentPane().add(Jspane);
 {%endhighlight%}
