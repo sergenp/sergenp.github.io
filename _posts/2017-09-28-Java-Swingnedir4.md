@@ -236,7 +236,7 @@ Sonucumuz şöyle birşey oluyor:
 
 ### JScrollPane
 
-JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextArea mize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextArea mize ScrollBar eklersek, TextArea mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence:
+JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextArea mize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextArea mize ScrollBar eklersek, TextArea mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence
 {%highlight java%}
 	JTextArea textArea = new JTextArea();
 	textArea.setLineWrap(true);
@@ -246,4 +246,5 @@ JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı
 
 	frame.getContentPane().add(Jspane);
 {%endhighlight%}
-Gördüğünüz gibi ScrollPane eklediğimiz elemanı "frame" e eklemiyoruz, ScrollPane nin kendisini ekliyoruz, bunu yaptığımızda otomatikmen zaten o elemanda eklenmiş oluyor. Yani JTextArea burda, ScrollPane'nin "Child" ı oluyor.
+Gördüğünüz gibi ScrollPane eklediğimiz elemanı "frame" e eklemiyoruz, ScrollPane nin kendisini ekliyoruz, bunu yaptığımızda otomatikmen zaten o elemanda eklenmiş oluyor. Yani JTextArea burda, ScrollPane'nin "Child" ı oluyor.Ve bu kod böyle çalışıyor:
+<img src="/images/javaswing/javaswing4/6.gif" />
