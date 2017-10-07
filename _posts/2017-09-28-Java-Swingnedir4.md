@@ -7,7 +7,7 @@ title: Java Swing(IV) - JSwing elemanları(Part 2)
 ---
 {% highlight java %}
 //JLabel,JComboBox,JCheckBox,,JTextArea,JFormattedTextField,JPasswordField (Part1)
-//JRadioButton,JTextPane,JEditorPane,JSpinner,JList,JTable,JProgressBar,JScroolBar,JSlider(Part2)
+//JRadioButton,JTextPane,JEditorPane,JSpinner,JList,JTable,JProgressBar,JScrollPane,JSlider(Part2)
 {% endhighlight %}
 
 Bu yazımda da şu kalan elemanları anlatacağım ne iş yaparlar nereye giderler falandır filandır.
@@ -234,7 +234,7 @@ Sonucumuz şöyle birşey oluyor:
 <img src="/images/javaswing/javaswing4/5.gif" />
 [Buradan Thread'e bakabilirsiniz.](http://tutorials.jenkov.com/java-concurrency/creating-and-starting-threads.html)
 
-### JScrollBar
+### JScrollPane
 
-ScroolBar denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextArea mize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextArea mize ScrollBar eklersek, TextArea mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence:
+JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextArea mize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextArea mize ScrollBar eklersek, TextArea mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence:
 
