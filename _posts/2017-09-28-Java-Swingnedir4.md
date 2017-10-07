@@ -229,3 +229,7 @@ Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz g
 		progressThread.start();
 	}
 {%endhighlight%}
+
+Sonucumuz şöyle birşey oluyor:
+<img src="/images/javaswing/javaswing4/5.gif" />
+
