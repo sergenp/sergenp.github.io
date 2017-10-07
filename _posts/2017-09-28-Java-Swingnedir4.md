@@ -205,6 +205,7 @@ Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz g
 
 	public void baslat() {
 		progressThread = new Thread(new Runnable() {
+        	// baslat methodu ilk çağırıldığında sürecimiz 0 olmalı.
 			int surec = 0;
 			@Override
 			public void run() {
