@@ -196,3 +196,8 @@ ProgressBar kullanmak için genellikle main thread imiz dışında başka bir th
 		});
 {%endhighlight%}
 Burdaki baslat fonksiyonumuz yeni bir thread başlatıcak, progress barımıza rastgele sayılar atıyacak, ve atanan sayı 100 den büyük olduğu zaman durduracak.
+
+{%highlight java%}
+	private Thread progressThread = null;
+{%endhighlight%}
+Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz gerekecek.
