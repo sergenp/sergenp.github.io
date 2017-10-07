@@ -233,3 +233,8 @@ Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz g
 Sonucumuz şöyle birşey oluyor:
 <img src="/images/javaswing/javaswing4/5.gif" />
 [Buradan Thread'e bakabilirsiniz.](http://tutorials.jenkov.com/java-concurrency/creating-and-starting-threads.html)
+
+### JScrollBar
+
+ScroolBar denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextPanemize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextPane mize ScrollBar eklersek, TextPane mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence:
+
