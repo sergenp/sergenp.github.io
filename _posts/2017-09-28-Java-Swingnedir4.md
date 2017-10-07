@@ -115,17 +115,17 @@ JComboBox u hatırlarsınız. Temelde aynı şeyler. Açıkcası hiç kullanmad�
 JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi hazırlıyorsunuz.Bu model listesine istediğiniz türden şeyi koyma hakkınız var.Görsel olarak anlatmak daha kolay tabii:
 
 {%highlight java%}
-	JList<String> list = new JList<String>();
-	list.setModel(new AbstractListModel<String>() {
-		String[] values = new String[] {"sergen", "ahmet", "mehmet", "abdullah", "fatma", "yurdanur", "isim", "haf\u0131zam", "bitti", "resmen", "benden", "bu", "kadar"};
-		public int getSize() {
-			return values.length;
-		}
-		public String getElementAt(int index) {
-			return values[index];
-		}
-	});
-	list.setBounds(10, 10, 100, 240);
-	frame.getContentPane().add(list);
+JList<String> list = new JList<String>();
+list.setModel(new AbstractListModel<String>() {
+	String[] values = new String[] {"sergen", "ahmet", "mehmet", "abdullah", "fatma", "yurdanur", "isim", "haf\u0131zam", "bitti", "resmen", "benden", "bu", "kadar"};
+	public int getSize() {
+		return values.length;
+	}
+	public String getElementAt(int index) {
+		return values[index];
+	}
+});
+list.setBounds(10, 10, 100, 240);
+frame.getContentPane().add(list);
 	    
 {%endhighlight%}
