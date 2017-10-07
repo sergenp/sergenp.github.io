@@ -232,4 +232,4 @@ Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz g
 
 Sonucumuz şöyle birşey oluyor:
 <img src="/images/javaswing/javaswing4/5.gif" />
-
+[Buradan Thread'e bakabilirsiniz.](http://tutorials.jenkov.com/java-concurrency/creating-and-starting-threads.html)
