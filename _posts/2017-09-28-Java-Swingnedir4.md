@@ -61,7 +61,7 @@ Artık bunlara bi işlevsellik ekleyebiliriz.Mesela herhangi birini seçtiğimiz
 	radyoButonu3.addActionListener(this);
 	radyoButonu4.addActionListener(this);
 {%endhighlight%}
-Resimlerimizi tutmak için de bir JLabel ekledim
+Resimlerimizi tutmak için de 200x150 genişliğinde bir JLabel ekledim
 
 Hiçbir butonumuza ActionCommand eklemediğimiz için, varsayılan ActionCommand ları Butonumuzun Text içeriği olur.Yani:
 {%highlight java%}
