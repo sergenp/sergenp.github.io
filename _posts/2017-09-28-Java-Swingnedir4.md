@@ -60,6 +60,9 @@ Artık bunlara bi işlevsellik ekleyebiliriz.Mesela herhangi birini seçtiğimiz
 	radyoButonu2.addActionListener(this);
 	radyoButonu3.addActionListener(this);
 	radyoButonu4.addActionListener(this);
+    JLabel resimLabel = new JLabel();
+	resimLabel.setBounds(174, 36, 200, 150);
+	frame.getContentPane().add(resimLabel);
 {%endhighlight%}
 Resimlerimizi tutmak için de 200x150 genişliğinde bir JLabel ekledim
 
