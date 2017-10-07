@@ -28,23 +28,23 @@ private void initialize() {
 	frame.setBounds(100, 100, 450, 300);
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	frame.getContentPane().setLayout(null);
-
+		
 	JRadioButton radyoButonu1 = new JRadioButton("Buton1");
-	radyoButonu1.setBounds(10, 0, 109, 23);
+	radyoButonu1.setBounds(10, 0, 100, 25);
 	frame.getContentPane().add(radyoButonu1);
-
+		
 	JRadioButton radyoButonu2 = new JRadioButton("Buton2");
-	radyoButonu2.setBounds(10, 25, 109, 23);
+	radyoButonu2.setBounds(10, 25, 100, 25);
 	frame.getContentPane().add(radyoButonu2);
-
+		
 	JRadioButton radyoButonu3 = new JRadioButton("Buton3");
-	radyoButonu3.setBounds(10, 50, 109, 23);
+	radyoButonu3.setBounds(10, 50, 100, 25);
 	frame.getContentPane().add(radyoButonu3);
-
+		
 	JRadioButton radyoButonu4 = new JRadioButton("Buton4");
-	radyoButonu4.setBounds(10, 75, 109, 23);
+	radyoButonu4.setBounds(10, 75, 100, 25);
 	frame.getContentPane().add(radyoButonu4);
-
+		
 	ButtonGroup group = new ButtonGroup();
 	group.add(radyoButonu1);
 	group.add(radyoButonu2);
