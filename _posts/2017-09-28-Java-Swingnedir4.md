@@ -145,4 +145,9 @@ JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi ha
 <img src="/images/javaswing/javaswing4/3.gif" />
 ___ListSelectionListener___ interfacemiz listteki herhangi bir elementi seçtiğimizde tetikleniyor.Böylelikle listteki herhangi bir elemanı seçtiğimiz de textPane mizin Text i o elemanın text ine eşit oluyor.
 
+Burdan gördüğünüz üzere listemizden seçtiğimiz herhangi bir elementle bütün JPaneli kontrol edebiliriz.
 
+Örnek bir isim seçtiğimizde bu isimle ilgili bilgileri ekrana yazdırabiliriz.
+Veya JList modelini ImageIcon olarak alıp, herhangi bir elemana tıkladığımızda başka bir elemanın resmini değiştirebiliriz.
+Veya JList modelini String olarak alıp, O stringe çift tıkladığımızda bir müzik dosyasının açılmasını sağlayabiliriz!
+(MP3 player tarzında, ki github hesabımda bulabilirsiniz. [MP3 Player](https://github.com/sergenp/Minimal-Java-Projects/tree/master/mp3Player) Herhangi bir eklentiyi hoşnutlukla karşılarım.)
