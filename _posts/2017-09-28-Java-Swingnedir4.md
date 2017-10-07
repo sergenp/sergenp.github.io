@@ -153,6 +153,7 @@ Veya JList modelini String olarak alıp, O stringe çift tıkladığımızda bir
 (MP3 player tarzında, ki github hesabımda bulabilirsiniz. [MP3 Player](https://github.com/sergenp/Minimal-Java-Projects/tree/master/mp3Player) Herhangi bir eklentiyi hoşnutlukla karşılarım.)
 
 ### JTable
+
 Böyle birşey yapabiliriz:
 {%highlight java%}
 		table = new JTable();
@@ -173,3 +174,9 @@ Sonuç:
 <img src="/images/javaswing/javaswing4/4.png" />
 
 Kısacası resmen bir excel tablosu.Databasenize birşey göndermek amaçlı kullanılabilir, veya bir yönetim yazılımı yapıp, kullanıcı bilgilerini toplamak adına bir table oluşturabilirsiniz.Böyle şeyler de kullanılabilir.
+
+### JProgressBar
+
+Hepimiz elbet birşey yüklemişizdir.O şeyi yüklerken dolan bir çubuk var, işte bu çubuğa ProgressBar diyolar.
+
+ProgressBar kullanmak için genellikle main thread imiz dışında başka bir threadle çalışmak durumundayız.
