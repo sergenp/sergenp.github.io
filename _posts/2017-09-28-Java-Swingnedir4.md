@@ -140,3 +140,4 @@ JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi ha
 		}); 
 	}
 {%endhighlight%}
+__ListSelectionListener__ interfacemiz listteki herhangi bir elementi seçtiğimizde tetikleniyor.
