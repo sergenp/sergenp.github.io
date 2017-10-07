@@ -209,10 +209,12 @@ Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz g
 			int surec = 0;
 			@Override
 			public void run() {
+            	// sürecimiz 100 den küçükken
 				while(surec < 100) {
 					try {
+                    	// rastgele bir sayı oluşturmak için Random classımızı kulanmamız gerekiyor.
 						Random rand = new Random();
-						int  n = rand.nextInt(10) + 1;
+						int  n = rand.nextInt(10) + 1; // 1,10 arası rastgele bir sayı.
 						surec += n;
 						progressBar.setValue(surec);
 						Thread.sleep(500);
