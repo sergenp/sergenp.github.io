@@ -128,11 +128,13 @@ JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi ha
 		list.setBounds(10, 10, 100, 240);
 		frame.getContentPane().add(list);
 		
+        // rastgele bir textPane, list ile etkileşime geçmesi için
 		textPane = new JTextPane();
 		textPane.setEnabled(false);
 		textPane.setEditable(false);
 		textPane.setBounds(178, 59, 113, 20);
 		frame.getContentPane().add(textPane);
+        
 		list.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent arg0) {
 				textPane.setText(list.getSelectedValue());
