@@ -179,4 +179,19 @@ Kısacası resmen bir excel tablosu.Databasenize birşey göndermek amaçlı kul
 
 Hepimiz elbet birşey yüklemişizdir.O şeyi yüklerken dolan bir çubuk var, işte bu çubuğa ProgressBar diyolar.
 
-ProgressBar kullanmak için genellikle main thread imiz dışında başka bir threadle çalışmak durumundayız.
+ProgressBar kullanmak için genellikle main thread imiz dışında başka bir threadle çalışmak durumundayız.En azından ben böyle yapıyorum.
+{%highlight java%}
+		progressBar = new JProgressBar();
+		progressBar.setBounds(109, 71, 255, 14);
+		frame.getContentPane().add(progressBar);
+		
+		JButton basla = new JButton("Ba\u015Fla");
+		basla.setBounds(10, 62, 89, 23);
+		basla.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				basla.setEnabled(false);
+				baslat();
+			}
+		});
+{%endhighlight%}
