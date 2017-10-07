@@ -56,13 +56,13 @@ private void initialize() {
 Artık bunlara bi işlevsellik ekleyebiliriz.Mesela herhangi birini seçtiğimizde bize değişik resimler versin.ActionListeneri hatırlarsınız.Onu implement ediyoruz.
 
 {%highlight java%}
-	radyoButonu1.addActionListener(this);
-	radyoButonu2.addActionListener(this);
-	radyoButonu3.addActionListener(this);
-	radyoButonu4.addActionListener(this);
-    JLabel resimLabel = new JLabel();
-	resimLabel.setBounds(174, 36, 200, 150);
-	frame.getContentPane().add(resimLabel);
+radyoButonu1.addActionListener(this);
+radyoButonu2.addActionListener(this);
+radyoButonu3.addActionListener(this);
+radyoButonu4.addActionListener(this);
+JLabel resimLabel = new JLabel();
+resimLabel.setBounds(174, 36, 200, 150);
+frame.getContentPane().add(resimLabel);
 {%endhighlight%}
 Resimlerimizi tutmak için de 200x150 genişliğinde bir JLabel ekledim
 
@@ -77,25 +77,25 @@ radyoButonu2.getActionCommand() == "Timsah";
 Yapmamız gereken radyoButonundan actionCommandı alıp, resimLabelimizin iconunu aldığımız komutun resmine çevirmek.
 resimLabel.setIcon() komutuyla resmimizi yerleştirebiliriz.
 {%highlight java%}
-	@Override
-	public void actionPerformed(ActionEvent arg0) {
-		switch(arg0.getActionCommand()) {
-			case "Timsah":
-	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/timsah.jpg")));
-	        	break;
-			case "Kuş":
-	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
-				break;
-			case "Ejderha":
-	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/ejderha.jpg")));
-				break;
-			case "Penguen":
-	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/penguen.jpg")));
-				break;
-			default:
-				break;
-		}
+@Override
+public void actionPerformed(ActionEvent arg0) {
+	switch(arg0.getActionCommand()) {
+		case "Timsah":
+		resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/timsah.jpg")));
+		break;
+		case "Kuş":
+		resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
+			break;
+		case "Ejderha":
+		resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/ejderha.jpg")));
+			break;
+		case "Penguen":
+		resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/penguen.jpg")));
+			break;
+		default:
+			break;
 	}
+}
 {%endhighlight%}
 <img src="/images/javaswing/javaswing4/2.gif" />
 
@@ -115,32 +115,32 @@ JComboBox u hatırlarsınız. Temelde aynı şeyler. Açıkcası hiç kullanmad�
 JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi hazırlıyorsunuz.Bu model listesine istediğiniz türden şeyi koyma hakkınız var.Görsel olarak anlatmak daha kolay tabii:
 
 {%highlight java%}
-		JList<String> list = new JList<String>();
-		list.setModel(new AbstractListModel<String>() {
-			String[] values = new String[] {"sergen", "ahmet", "mehmet", "abdullah", "fatma", "yurdanur", "isim", "haf\u0131zam", "bitti", "resmen", "benden", "bu", "kadar"};
-			public int getSize() {
-				return values.length;
-			}
-			public String getElementAt(int index) {
-				return values[index];
-			}
-		});
-		list.setBounds(10, 10, 100, 240);
-		frame.getContentPane().add(list);
-		
-        // rastgele bir textPane, list ile etkileşime geçmesi için
-		textPane = new JTextPane();
-		textPane.setEnabled(false);
-		textPane.setEditable(false);
-		textPane.setBounds(178, 59, 113, 20);
-		frame.getContentPane().add(textPane);
-        
-		list.addListSelectionListener(new ListSelectionListener() {
-			public void valueChanged(ListSelectionEvent arg0) {
-				textPane.setText(list.getSelectedValue());
-			}
-		}); 
+JList<String> list = new JList<String>();
+list.setModel(new AbstractListModel<String>() {
+	String[] values = new String[] {"sergen", "ahmet", "mehmet", "abdullah", "fatma", "yurdanur", "isim", "haf\u0131zam", "bitti", "resmen", "benden", "bu", "kadar"};
+	public int getSize() {
+		return values.length;
 	}
+	public String getElementAt(int index) {
+		return values[index];
+	}
+});
+list.setBounds(10, 10, 100, 240);
+frame.getContentPane().add(list);
+
+// rastgele bir textPane, list ile etkileşime geçmesi için
+textPane = new JTextPane();
+textPane.setEnabled(false);
+textPane.setEditable(false);
+textPane.setBounds(178, 59, 113, 20);
+frame.getContentPane().add(textPane);
+
+list.addListSelectionListener(new ListSelectionListener() {
+	public void valueChanged(ListSelectionEvent arg0) {
+		textPane.setText(list.getSelectedValue());
+	}
+}); 
+}
 {%endhighlight%}
 <img src="/images/javaswing/javaswing4/3.gif" />
 ___ListSelectionListener___ interfacemiz listteki herhangi bir elementi seçtiğimizde tetikleniyor.Böylelikle listteki herhangi bir elemanı seçtiğimiz de textPane mizin Text i o elemanın text ine eşit oluyor.
@@ -156,19 +156,19 @@ Veya JList modelini String olarak alıp, O stringe çift tıkladığımızda bir
 
 Böyle birşey yapabiliriz:
 {%highlight java%}
-		table = new JTable();
-		table.setBorder(new LineBorder(new Color(0, 0, 0)));
-		table.setModel(new DefaultTableModel(
-			new Object[][] {
-				{"sergen", "pek\u015Fen", "00000000000"},
-				{"mahmut", "yanyatan", "00000000000"},
-				{"rudik", "ulutur", "00000000000"},
-			},
-			new String[] {
-				"\u0130sim", "Soyisim", "TelNo"
-			}
-		));
-		table.setBounds(10, 10, 250, 48);
+table = new JTable();
+table.setBorder(new LineBorder(new Color(0, 0, 0)));
+table.setModel(new DefaultTableModel(
+	new Object[][] {
+		{"sergen", "pek\u015Fen", "00000000000"},
+		{"mahmut", "yanyatan", "00000000000"},
+		{"rudik", "ulutur", "00000000000"},
+	},
+	new String[] {
+		"\u0130sim", "Soyisim", "TelNo"
+	}
+));
+table.setBounds(10, 10, 250, 48);
 {%endhighlight%}
 Sonuç:
 <img src="/images/javaswing/javaswing4/4.png" />
@@ -181,53 +181,53 @@ Hepimiz elbet birşey yüklemişizdir.O şeyi yüklerken dolan bir çubuk var, i
 
 ProgressBar kullanmak için genellikle main thread imiz dışında başka bir threadle çalışmak durumundayız.En azından ben böyle yapıyorum.
 {%highlight java%}
-		progressBar = new JProgressBar();
-		progressBar.setBounds(109, 71, 255, 14);
-		frame.getContentPane().add(progressBar);
-		
-		JButton basla = new JButton("Ba\u015Fla");
-		basla.setBounds(10, 62, 89, 23);
-		basla.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				basla.setEnabled(false);
-				baslat();
-			}
-		});
+progressBar = new JProgressBar();
+progressBar.setBounds(109, 71, 255, 14);
+frame.getContentPane().add(progressBar);
+
+JButton basla = new JButton("Ba\u015Fla");
+basla.setBounds(10, 62, 89, 23);
+basla.addActionListener(new ActionListener() {
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		basla.setEnabled(false);
+		baslat();
+	}
+});
 {%endhighlight%}
 Burdaki baslat fonksiyonumuz yeni bir thread başlatıcak, progress barımıza rastgele sayılar atıyacak, ve atanan sayı 100 den büyük olduğu zaman durduracak.
 
 {%highlight java%}
-	private Thread progressThread = null;
+private Thread progressThread = null;
 {%endhighlight%}
 Classımızın başına koyduğumuz (Instance variable) ile işimizi görmemiz gerekecek.
 {%highlight java%}
 
-	public void baslat() {
-		progressThread = new Thread(new Runnable() {
-        	// baslat methodu ilk çağırıldığında sürecimiz 0 olmalı.
-			int surec = 0;
-			@Override
-			public void run() {
-            	// sürecimiz 100 den küçükken
-				while(surec < 100) {
-					try {
-                    	// rastgele bir sayı oluşturmak için Random classımızı kulanmamız gerekiyor.
-						Random rand = new Random();
-						int  n = rand.nextInt(10) + 1; // 1,10 arası rastgele bir sayı.
-						surec += n; // Her loop umuzda surec int imiz 1 ila 10 arası artıyor.
-						progressBar.setValue(surec); // bu sürecide progress bar valuesi olarak atıyoruz.
-						Thread.sleep(500); // en sonunda Threadimizi 0.5 saniye uyutuyoruz, yani teknik olarak while loopumuzu her 0.5 saniyede bir çalıştırıyoruz.
-					} catch (InterruptedException e) {
-						return;
-					}
-
+public void baslat() {
+	progressThread = new Thread(new Runnable() {
+	// baslat methodu ilk çağırıldığında sürecimiz 0 olmalı.
+		int surec = 0;
+		@Override
+		public void run() {
+	// sürecimiz 100 den küçükken
+			while(surec < 100) {
+				try {
+		// rastgele bir sayı oluşturmak için Random classımızı kulanmamız gerekiyor.
+					Random rand = new Random();
+					int  n = rand.nextInt(10) + 1; // 1,10 arası rastgele bir sayı.
+					surec += n; // Her loop umuzda surec int imiz 1 ila 10 arası artıyor.
+					progressBar.setValue(surec); // bu sürecide progress bar valuesi olarak atıyoruz.
+					Thread.sleep(500); // sonunda Threadimizi 0.5 saniye uyutuyoruz, yani teknik olarak while loopumuzu her 0.5 saniyede bir çalıştırıyoruz.
+				} catch (InterruptedException e) {
+					return;
 				}
+
 			}
-		});
-        // en sonunda bu threadi başlatmamız gerekiyor.Bunuda bu şekilde yapıyoruz
-		progressThread.start();
-	}
+		}
+	});
+	// en sonunda bu threadi başlatmamız gerekiyor.Bunuda bu şekilde yapıyoruz
+	progressThread.start();
+}
 {%endhighlight%}
 
 Sonucumuz şöyle birşey oluyor:
@@ -238,13 +238,13 @@ Sonucumuz şöyle birşey oluyor:
 
 JScrollPane denen şey, websitelerinde gezerken çok rastlarsınız, bir "Bar"ı kaydırdığımızda sayfanın da onla birlikte kaymasını sağlayan şeydir.Genellikle çok kullanışlı olurlar.Mesela bir günlük uygulaması yaptığımızı düşünelim.JTextArea mize o kadar çok yazı yazdık ki doldu taştı ve yazdığımız yazıların yarısını göremiyoruz.Bu TextArea mize ScrollBar eklersek, TextArea mizi kaydırabilir ve görmediğimiz yerleri görebiliriz.Örneklerle daha iyi anlatırım bence
 {%highlight java%}
-	JTextArea textArea = new JTextArea();
-	textArea.setLineWrap(true);
-		
-	JScrollPane Jspane = new JScrollPane(textArea);
-	Jspane.setBounds(10, 11, 120, 65);
+JTextArea textArea = new JTextArea();
+textArea.setLineWrap(true);
 
-	frame.getContentPane().add(Jspane);
+JScrollPane Jspane = new JScrollPane(textArea);
+Jspane.setBounds(10, 11, 120, 65);
+
+frame.getContentPane().add(Jspane);
 {%endhighlight%}
 Gördüğünüz gibi ScrollPane eklediğimiz elemanı "frame" e eklemiyoruz, ScrollPane nin kendisini ekliyoruz, bunu yaptığımızda otomatikmen zaten o elemanda eklenmiş oluyor. Yani JTextArea burda, ScrollPane'nin "Child" ı oluyor.Ve bu kod böyle çalışıyor:
 <img src="/images/javaswing/javaswing4/6.gif" />
@@ -254,23 +254,23 @@ Gördüğünüz gibi ScrollPane eklediğimiz elemanı "frame" e eklemiyoruz, Scr
 JSliderlar ise size bir "Bar" veriyor, onu yukarı aşağı kaydırdığınız zaman da bir "value" veriyor.Mesela bilgisayarınızın sesini açıp kapattığınızda kullandığınız elemanlar Slider olarak adlandırılıyor.
 
 {%highlight java%}
-		JSlider slider = new JSlider();
-		slider.setOrientation(SwingConstants.VERTICAL);
-		slider.setBounds(10, 11, 26, 239);
-		frame.getContentPane().add(slider);
-		
-		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setHorizontalAlignment(SwingConstants.RIGHT);
-		lblNewLabel.setBounds(46, 83, 62, 69);
-		frame.getContentPane().add(lblNewLabel);
+JSlider slider = new JSlider();
+slider.setOrientation(SwingConstants.VERTICAL);
+slider.setBounds(10, 11, 26, 239);
+frame.getContentPane().add(slider);
+
+JLabel lblNewLabel = new JLabel("");
+lblNewLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+lblNewLabel.setBounds(46, 83, 62, 69);
+frame.getContentPane().add(lblNewLabel);
+lblNewLabel.setText(String.format("%d",slider.getValue()));
+
+// ChangeListener == Değişim Dinleyicisi
+slider.addChangeListener(new ChangeListener() {
+	@Override
+	public void stateChanged(ChangeEvent arg0) {
 		lblNewLabel.setText(String.format("%d",slider.getValue()));
-		
-        // ChangeListener == Değişim Dinleyicisi
-		slider.addChangeListener(new ChangeListener() {
-			@Override
-			public void stateChanged(ChangeEvent arg0) {
-				lblNewLabel.setText(String.format("%d",slider.getValue()));
-			}
-		});
+	}
+});
 {%endhighlight%}
 <img src="/images/javaswing/javaswing4/7.gif" />
