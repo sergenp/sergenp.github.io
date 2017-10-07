@@ -75,10 +75,10 @@ radyoButonu2.getActionCommand() == "Timsah";
 .
 {%endhighlight%}
 Yapmamız gereken radyoButonundan actionCommandı alıp, resimLabelimizin iconunu aldığımız komutun resmine çevirmek.
+resimLabel.setIcon() komutuyla resmimizi yerleştirebiliriz.
 {%highlight java%}
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-    	if(arg0.getActionCommand()
 	}
 {%endhighlight%}
 
