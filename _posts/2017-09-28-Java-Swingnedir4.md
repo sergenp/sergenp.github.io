@@ -53,4 +53,4 @@ private void initialize() {
 }
 {%endhightlight%}
 <img src="/images/javaswing/javaswing4/1.gif" />
-
+Artık bunlara bi işlevsellik ekleyebiliriz.Mesela herhangi birini seçtiğimizde bize değişik resimler versin.
