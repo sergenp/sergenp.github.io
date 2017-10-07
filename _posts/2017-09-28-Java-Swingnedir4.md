@@ -112,4 +112,6 @@ JComboBox u hatırlarsınız. Temelde aynı şeyler. Açıkcası hiç kullanmad�
 
 ### JList
 
-JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi hazırlıyorsunuz.Bu model listesine istediğiniz türden elementi koyma hakkınız var.
+JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi hazırlıyorsunuz.Bu model listesine istediğiniz türden şeyi koyma hakkınız var.Görsel olarak anlatmak daha kolay tabii:
+
+
