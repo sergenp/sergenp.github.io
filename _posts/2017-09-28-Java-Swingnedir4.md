@@ -95,9 +95,9 @@ resimLabel.setIcon() komutuyla resmimizi yerleştirebiliriz.
 			default:
 				break;
 		}
-    	
 	}
 {%endhighlight%}
+<img src="/images/javaswing/javaswing4/2.gif" />
 
 
 
