@@ -87,10 +87,10 @@ resimLabel.setIcon() komutuyla resmimizi yerleştirebiliriz.
 	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
 				break;
 			case "Ejderha":
-	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
+	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/ejderha.jpg")));
 				break;
 			case "Penguen":
-	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/kus.jpg")));
+	        	resimLabel.setIcon(new ImageIcon(Main.class.getResource("/main/penguen.jpg")));
 				break;
 			default:
 				break;
