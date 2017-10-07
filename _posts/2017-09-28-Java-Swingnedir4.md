@@ -153,17 +153,23 @@ Veya JList modelini String olarak alıp, O stringe çift tıkladığımızda bir
 (MP3 player tarzında, ki github hesabımda bulabilirsiniz. [MP3 Player](https://github.com/sergenp/Minimal-Java-Projects/tree/master/mp3Player) Herhangi bir eklentiyi hoşnutlukla karşılarım.)
 
 ### JTable
+Böyle birşey yapabiliriz:
 {%highlight java%}
-	table = new JTable();
-	table.setModel(new DefaultTableModel(
-		new Object[][] {
-			{"sergen", "pekşen", "00000000000"},
-			{"mahmut", "yanyatan", "00000000000"},
-			{"rudik", "ulutur", "00000000000"},
-		},
-		new String[] {
-			"İsim", "Soyisim", "TelNo"
-		}
-	));
-		table.setBounds(10, 10, 200, 200);
+		table = new JTable();
+		table.setBorder(new LineBorder(new Color(0, 0, 0)));
+		table.setModel(new DefaultTableModel(
+			new Object[][] {
+				{"sergen", "pek\u015Fen", "00000000000"},
+				{"mahmut", "yanyatan", "00000000000"},
+				{"rudik", "ulutur", "00000000000"},
+			},
+			new String[] {
+				"\u0130sim", "Soyisim", "TelNo"
+			}
+		));
+		table.setBounds(10, 10, 250, 48);
 {%endhighlight%}
+Sonuç:
+<img src="/images/javaswing/javaswing4/4.png" />
+
+Kısacası resmen bir excel tablosu.Databasenize birşey göndermek amaçlı kullanılabilir, veya bir yönetim yazılımı yapıp, kullanıcı bilgilerini toplamak adına bir table oluşturabilirsiniz.Böyle şeyler de kullanılabilir.
