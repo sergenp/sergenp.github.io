@@ -140,4 +140,4 @@ JList gerçekten güzel bir icat.Kullanmak için, ilk önce bir model listesi ha
 		}); 
 	}
 {%endhighlight%}
-___ListSelectionListener___ interfacemiz listteki herhangi bir elementi seçtiğimizde tetikleniyor.
+___ListSelectionListener___ interfacemiz listteki herhangi bir elementi seçtiğimizde tetikleniyor.Böylelikle listteki herhangi bir elemanı seçtiğimiz de textPane mizin Text i o elemanın text ine eşit oluyor.
