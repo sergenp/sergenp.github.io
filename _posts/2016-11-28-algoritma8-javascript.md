@@ -11,7 +11,6 @@ tags:
 function alg8(naber){
   System.out.println(alg8.toUpperCase());
 }
-/*errrrrr */
 {% endhighlight %}
 Bu gönderimde iç içe geçmiş 2 diziden en büyük numarayı bulup, diğer bir dizeye kaydetme freecodecamp "challange" sini yapacağım. 
 ### Return Largest Numbers in Arrays 
