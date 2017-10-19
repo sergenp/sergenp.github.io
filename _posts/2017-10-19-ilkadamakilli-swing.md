@@ -10,4 +10,8 @@ Bize hava durumunu veren bir [API](http://e-bergi.com/y/api-nedir) lazım.Aslın
 
 API keylerimizi paylaşmamamız gerekiyor aslında, ama yenisini alacağım için şuanki API keyimi kodlarda göstereceğim, hepimiz için farklı API keyleri olacağı için, siz benim API keyim yerine kendinizinkini yazın.
 
+{%highlight java%}
+private final String API_KEY = "211e950e45f449fe961161110172509";
+{%endhighlight%}
+
 
