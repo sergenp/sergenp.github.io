@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: İlk Adam Akıllı Program(Java - Swing)
 layout: post
 categories: Java
