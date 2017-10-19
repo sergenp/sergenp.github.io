@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-tags: '-swing'
+tags:
+  - swing
 categories: Java
 title: Java Swing(IV) - JSwing elemanları(Part 2)
 ---
