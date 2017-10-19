@@ -6,6 +6,8 @@ title: İlk Adam Akıllı Program(Java - Swing)
 
 Öncelikle ne yapcaz onu bir düşünelim.Bütün programlamacılar hayatında en az bir kere hava durumu ile ilgili bir program yapmıştır, bende öyle birşey yapayım bari.
 
-Bize hava durumunu veren bir [API](http://e-bergi.com/y/api-nedir) lazım.Aslında ondan önce projenin taslağı falan lazım, ama ne aklıma gelirse öyle yapmayı planlıyorum.
+Bize hava durumunu veren bir [API](http://e-bergi.com/y/api-nedir) lazım.Aslında ondan önce projenin taslağı falan lazım, ama ne aklıma gelirse öyle yapmayı planlıyorum.Neyse, benim önceden kullandığım bir hava durumu API'ı olan [apixu](https://www.apixu.com/)'yu kullanacağım.Siteye girip API keyimizi almamız lazım. Girip signupa basarsanız zaten API keyiniz karşınıza gelecektir.
+
+
 
 
