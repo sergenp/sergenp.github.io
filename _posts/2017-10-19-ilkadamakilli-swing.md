@@ -2,7 +2,7 @@
 published: false
 title: İlk Adam Akıllı Program(Java - Swing)
 ---
-> _Bu kadar Java swing den sonra ilk adam akıllı programımızı yapmamızın vakti geldi._
+### > _Bu kadar Java swing den sonra ilk adam akıllı programımızı yapmamızın vakti geldi._
 
 Öncelikle ne yapcaz onu bir düşünelim.Bütün programlamacılar hayatında en az bir kere hava durumu ile ilgili bir program yapmıştır, bende öyle birşey yapayım bari.
 
