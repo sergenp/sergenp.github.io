@@ -31,14 +31,14 @@ frame.setLayout(null); // null layout Absolute layoutu temsil ediyor.
 {% endhighlight %}
 
 
-En büyük kötülüğü budur Absolute layoutun.Başkada yok.
-Absolute layout hakkında konuşmaya fazlada gerek yok.Basit, kullanımı kolay.
+En büyük kötülüğü budur Absolute layoutun.
+Absolute layout hakkında konuşmaya fazla da gerek yok.Basit, kullanımı kolay.
 
 ## Border Layout
 
 Border layoutta ekran North(Kuzey),East(Doğu),West(Batı),South(Güney),Center(Orta) olmak üzere ekran 5 parçaya bölünüyor.
 
-Siz bu 5 parçaya bölünmüş ekrana tam olarak, evet yanlış duymadınız, tam olarak 5 tane element yerleştirebiliyosunuz.Bu istediğiniz JFrame elementi olabilir.Border layout elementlerin (x,y,width,height) özelliklerini otomatikmen bizim için ayarlıyor.Yani üstte görülen durum bizi pek ilgilendirmiyor.
+Siz bu 5 parçaya bölünmüş ekrana tam olarak 5, evet yanlış duymadınız, tam olarak 5 tane element yerleştirebiliyosunuz.Bu istediğiniz JFrame elementi olabilir.Border layout elementlerin (x,y,width,height) özelliklerini otomatikmen bizim için ayarlıyor.Yani üstte görülen durum bizi pek ilgilendirmiyor.
 
 <img src="/images/javaswing/javaswing4/2.png"></img>
 
