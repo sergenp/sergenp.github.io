@@ -1,10 +1,11 @@
 ---
-published: true
+published: false
 title: İlk Adam Akıllı Program(Java - Swing)
 layout: post
 categories: Java
 tags:
   - swing
+  - ilkprogram
 ---
 > Bu kadar Java swing den sonra ilk adam akıllı programımızı yapmamızın vakti geldi.
 
