@@ -96,4 +96,5 @@ def hepsini_topla
     end
     p
 end
+hepsini_topla
 {% endhighlight %}
