@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: İlk Adam Akıllı Program(Ruby)
-categories: 
-- Ruby
-tags: 
-- ilkprogram
+categories:
+  - Ruby
+tags:
+  - ilkprogram
 ---
 {% highlight ruby %}
 puts "ilk adam akıllı program"
@@ -33,11 +33,11 @@ i diye bir variable çıkarıp x-1 e eşitledik.Bu, örnek olarak 2'den 100 e ka
 
 ![]({{site.baseurl}}/images/ilkadamakilliprogram/loop2.png)
 
-Ve bitiş! Bu kadar basit.    
+Ve bitiş! Bu kadar basit.
 {% highlight ruby %}
-    	for i in hepsi
-		p += i
-	end
+for i in hepsi
+    p += i
+end
 {% endhighlight %}
 Bu kodu açıklayacak olursak. for i in hepsi satırı hepsi arrayındaki bütün elementleri bulmaya yarar. Örnek verecek olursak;
 
@@ -61,67 +61,39 @@ En sonundada puts #{"p"} yi kullanarak p değişkenini kullanıcıya gösterdik.
 
 Bu arada eğer adam gelipte sayı girceği yere fsewtsdctr fln yazarsa en başta x.to_i yazdığımız kod string değerlerini 0 a dönüştürüyor.Bir if statement daha yazıp eğer x 0 sa kodu yanlış girdi vb yapabilirsiniz. Ben bunların fnin yapılmış halini şuracığa ekleyimde kalsın.
 {% highlight ruby %}
-
-def s
-	puts " "
+def hepsini_topla
+    puts ("Başlangıç tamsayısı giriniz")
+    e = gets.chomp.to_i
+    puts("Bitiş tamsayısı giriniz")
+    a = gets.chomp.to_i
+    if(e > a)
+        puts "\nBaşlangıç sayısı bitiş sayısından büyük olamaz\n"
+        hepsini_topla()
+    elsif (e == 0 || a == 0 )
+        puts "\nGirdiğiniz sayı 0 olamaz veya girdiğiniz giriş sözcük olamaz\n" # .to_i stringleri 0 sayısına çevirdiği için 0 girdisini yoksaydım
+        hepsini_topla()
+    elsif (e === a)
+        puts "\nİki sayı birbirine eşit olmamalı\n" # <.<
+        hepsini_topla()
+    elsif (e === 1)
+        puts "\n#{e}'den #{a}'e kadar olan tamsayıların toplamı\n(#{e} ve #{a} dahil)" # formül varken o kadar cpu kullanmaya gerek yok
+        i = a + 1 # heryerde i variable kullanıyom taktım i ye herhalde
+        b = a*i / 2
+        puts "#{b}\n"
+    else
+        puts "\n#{e}'den #{a}'e kadar olan tamsayıların toplamı(#{e} ve #{a} dahil)\n" # kullanıcıya gösterelim hangi sayıları girdiğini belki unutur gerçi bunu göstermesek kullanan programın ne yaptığını bilmiycek o ayrı mesele
+        hepsi = []
+        i = e - 1
+        while i<a do
+            i += 1
+            hepsi.push(i)
+        end
+        p=0
+        for i in hepsi # hepsi.each() do |s| daha havalı ama biz böyle öğrendik başta napalım
+            p += i
+        end
+        puts "+= " + "#{p}"
+    end
+    p
 end
-
-def sergen
-	s
-	puts ("Başlangıç tamsayısı giriniz")
-	e = gets.chomp.to_i
-	puts("Bitiş tamsayısı giriniz")
-	a = gets.chomp.to_i
-	if(e > a)
-		s # --kısa new line-- puts " " yazmaya üşendim
-		puts "Başlangıç sayısı bitiş sayısından büyük olamaz"
-		s
-		sergen()
-	elsif (e == 0 || a == 0 )
-		s
-		puts "Girdiğiniz sayı 0 olamaz veya girdiğiniz giriş sözcük olamaz" # .to_i stringleri 0 sayısına çevirdiği için 0 girdisini yoksaydım
-		s
-		sergen()
-	elsif (e === a)
-		s
-		puts "İki sayı birbirine eşit olmamalı" # <.<
- 		s
-		sergen()
-	elsif (e === 1)
-		s
-		puts "#{e}'den #{a}'e kadar olan tamsayıların toplamı" # formül varken o kadar cpu kullanmaya gerek yok
-		s
-		i = a + 1 # heryerde i variable kullanıyom taktım i ye herhalde
-		b = a*i / 2
-		puts "#{b}"
-		s
-	else
-	s
-	puts "#{e}'den #{a}'e kadar olan tamsayıların toplamı" # kullanıcıya gösterelim hangi sayıları girdiğini belki unutur gerçi bunu göstermesek adam programın ne yaptığını bilmiycek o ayrı mesele
-	s 
-		hepsi = []
-		i = e - 1 
-		
-		while i<a do
-		i += 1
-		hepsi.push(i)
-		end
-		p=0
-		for i in hepsi # hepsi.each() do |s| daha havalı ama biz böyle öğrendik başta napalım
-			if a>100 # adam 20 den 649239 a kadar olan sayıların toplamını fln girer şimdi o kadar sayıyı ekrana put lamaya gerek yok
-				p+=i
-			else
-			puts i # x den y ye kadar olan sayıları göstereyim dedim daha cool oluyo valla
-			p += i
-			end
-		end
-		s
-		puts "+"
-		s
-		puts "= " +"#{p}"
-	end
-end
-
-sergen
-
 {% endhighlight %}
