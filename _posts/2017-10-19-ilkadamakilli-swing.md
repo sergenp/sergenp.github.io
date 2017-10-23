@@ -7,7 +7,7 @@ tags:
   - swing
   - ilkprogram
 ---
-> Bu kadar Java swing den sonra ilk adam akıllı programımızı yapmamızın vakti geldi.
+## Bu kadar Java swing den sonra ilk adam akıllı programımızı yapmamızın vakti geldi.
 
 Öncelikle ne yapcaz onu bir düşünelim.Bütün programlamacılar hayatında en az bir kere hava durumu ile ilgili bir program yapmıştır, bende öyle birşey yapayım bari.
 
@@ -66,9 +66,10 @@ public class Main{
 
 Klasik başlangıcımızı yaptık gördüğünüz üzere. Öncelikle söylemem gereken birşey var, burada GUI ın güzelliğiyle ilgilenmiyeceğim, sadece işlevi önemli benim açımdan, zaten ilgilenmeyi istesem büyük ihtimal 2 hafta GUI nasıl yapılır kursu falan almam gerekir.
 
-#### Metodlarımız
+#### Metotlarımız
 Neyse, şimdi bizim ihtiyacımız olan şey, json dosyamızı internet üzerinden almak.Onun için özel bir fonksiyon oluşturalım.
 
+##### getJSON
 {%highlight java%}
 private HttpURLConnection getJSON(String site){
     try {
@@ -144,6 +145,7 @@ Bu şekilde JsonElementimizi alabiliriz. JsonElementimiz şöyle (Paris ilini al
 Bana bu bilgiler içerisinden, "temp\_c", "wind\_kph", "wind\_degree", "humidity", "feelslike\_c" lazım.
 Peki bunları nasıl alabiliriz? Yeni bir method oluşturalım.
 
+##### gosterHavaDurumu
 {%highlight java%}
 private void gosterHavaDurumu() throws IOException {
     String sehirismi = txtehirIsminiGirin.getText();
@@ -226,7 +228,7 @@ private void gosterHavaDurumu() throws IOException {
 {%endhighlight%}
 Bu bilgileri alıp, ekrana yeni bir JFrame çıkartmak istiyorum, yani geçelim diğer Classımıza, ve HavaDurumu.java dosyamıza.
 
-HavaDurumu.java:
+##### HavaDurumu.java
 {%highlight java%}
 package main;
 
