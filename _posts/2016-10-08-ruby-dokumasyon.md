@@ -22,7 +22,7 @@ Youtube'de milyonlarca Ruby tutoriali var(milyonlarca değil tabide bayaa var) b
 
 Ruby'de oyun yapmak için Gosu library kullanıyor arkadaşımız.Gosu library çok küçük bir Ruby library. Çok az ama yararlı biçok class içeriyor.
 
-[![LA Ruby Konferansı](https://img.youtube.com/vi/jJhbpY70miE/0.jpg)](https://www.youtube.com/watch?v=jJhbpY70miE)
+<iframe src="https://www.youtube.com/watch?v=jJhbpY70miE" frameborder="0" allowfullscreen></iframe>
 
 Örneğin:
 {% highlight ruby %} 
@@ -34,8 +34,7 @@ oyun.new.show
 {% endhighlight %} 
 
 yazarak bir ekran oluşturabilirsiniz.
-
-[![Ruby Konferansı 2012](https://img.youtube.com/vi/H5_Kid3hpRs/0.jpg)](https://www.youtube.com/watch?v=H5_Kid3hpRs)
+<iframe src="https://www.youtube.com/watch?v=H5_Kid3hpRs" frameborder="0" allowfullscreen></iframe>
 
 Burdaki arkadaşımız hangi library kullanabilirsiniz vb. şeyleri kısa bi şekilde anlatmış.Eğer oyun yapımına ilginiz varsa mutlaka bakmanız gereken bir konferans.Ruby harici birkaç libraryde anlatıma dahil.
 
@@ -43,15 +42,15 @@ Burdaki arkadaşımız hangi library kullanabilirsiniz vb. şeyleri kısa bi şe
 
 Tabii ruby tutorials derken Derek Banas'ı es geçmemek lazım.Hakkımda bölümünde kanalını paylaştığım abimiz gerçekten işinin ehli bi insan. Sırf Ruby değil diğer dillerdede baya yardımcı oldu kendisi bana.Kesinlikle tavsiye ediyorum.
 
-[![Derek Banas Ruby](https://img.youtube.com/vi/Dji9ALCgfpM/0.jpg)](https://www.youtube.com/watch?v=Dji9ALCgfpM) 
+<iframe src="https://www.youtube.com/watch?v=Dji9ALCgfpM" frameborder="0" allowfullscreen></iframe>
 
 Ruby tips-tricks.İşe yarar bir video.
 
-[![Ruby Tips](https://img.youtube.com/vi/gIEMKOI_Y-4/0.jpg)](https://www.youtube.com/watch?v=gIEMKOI_Y-4) 
+<iframe src="https://www.youtube.com/watch?v=gIEMKOI_Y-4" frameborder="0" allowfullscreen></iframe>
 
 Bu videoda Ruby sembollerini güzel bir şekilde açıklıyor.
 
-[![Ruby Symbols](https://img.youtube.com/vi/mBXGBbEbXZY/0.jpg)](https://www.youtube.com/watch?v=mBXGBbEbXZY)
+<iframe src="https://www.youtube.com/watch?v=mBXGBbEbXZY" frameborder="0" allowfullscreen></iframe>
 
 ## İkinci olarak Websiteleri
 
