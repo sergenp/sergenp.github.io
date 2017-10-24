@@ -22,7 +22,7 @@ Youtube'de milyonlarca Ruby tutoriali var(milyonlarca değil tabide bayaa var) b
 
 Ruby'de oyun yapmak için Gosu library kullanıyor arkadaşımız.Gosu library çok küçük bir Ruby library. Çok az ama yararlı biçok class içeriyor.
 
-<iframe src="https://www.youtube.com/watch?v=jJhbpY70miE" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/jJhbpY70miE" frameborder="0" allowfullscreen></iframe>
 
 Örneğin:
 {% highlight ruby %} 
@@ -34,7 +34,7 @@ oyun.new.show
 {% endhighlight %} 
 
 yazarak bir ekran oluşturabilirsiniz.
-<iframe src="https://www.youtube.com/watch?v=H5_Kid3hpRs" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/H5_Kid3hpRs" frameborder="0" allowfullscreen></iframe>
 
 Burdaki arkadaşımız hangi library kullanabilirsiniz vb. şeyleri kısa bi şekilde anlatmış.Eğer oyun yapımına ilginiz varsa mutlaka bakmanız gereken bir konferans.Ruby harici birkaç libraryde anlatıma dahil.
 
@@ -42,15 +42,15 @@ Burdaki arkadaşımız hangi library kullanabilirsiniz vb. şeyleri kısa bi şe
 
 Tabii ruby tutorials derken Derek Banas'ı es geçmemek lazım.Hakkımda bölümünde kanalını paylaştığım abimiz gerçekten işinin ehli bi insan. Sırf Ruby değil diğer dillerdede baya yardımcı oldu kendisi bana.Kesinlikle tavsiye ediyorum.
 
-<iframe src="https://www.youtube.com/watch?v=Dji9ALCgfpM" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Dji9ALCgfpM" frameborder="0" allowfullscreen></iframe>
 
 Ruby tips-tricks.İşe yarar bir video.
 
-<iframe src="https://www.youtube.com/watch?v=gIEMKOI_Y-4" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/gIEMKOI_Y-4" frameborder="0" allowfullscreen></iframe>
 
 Bu videoda Ruby sembollerini güzel bir şekilde açıklıyor.
 
-<iframe src="https://www.youtube.com/watch?v=mBXGBbEbXZY" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/mBXGBbEbXZY" frameborder="0" allowfullscreen></iframe>
 
 ## İkinci olarak Websiteleri
 
