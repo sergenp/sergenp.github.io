@@ -13,7 +13,6 @@ end
 {% endhighlight %}
 Bu gönderimde Ruby öğrenmek , geliştirmek vb. ile ilgili bazı kaynaklar paylaşacağım.Kaynakların hepsi ingilizce onu baştan söyleyeyim.
 
-
 ## İlk olarak Youtube Tutorialleri 
 
 Youtube'de milyonlarca Ruby tutoriali var(milyonlarca değil tabide bayaa var) bazıları gerçekten çok iyi yurt dışında düzenlenen konferansların videolarını falan koyuyolar bazıları seçtim içlerinden buraya bırakıyorum resimlere tıklayarak videolara ulaşabilirsiniz;
@@ -72,6 +71,7 @@ Bu videoda Ruby sembollerini güzel bir şekilde açıklıyor.
 
 
 6 - [Ruby Quickstart](https://www.ruby-lang.org/en/documentation/quickstart) # Ruby in 20 Minutes başlangıç için çok uygun 
+
 
 7 - [Got 15 minutes? Give Ruby a shot right now!]( http://tryruby.org/levels/1/challenges/0) # Ruby'yi browserinizde denemenizi sağlıyor
 
