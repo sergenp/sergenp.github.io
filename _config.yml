@@ -4,13 +4,13 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Rastgele Programlama
+title: Rastgele
 subtitle:
 description:
 author: Sergen Pekşen
 # Support language: tr
 language: tr
-date_format: '%Y-%m-%d'
+date_format: '%d-%m-%Y'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
