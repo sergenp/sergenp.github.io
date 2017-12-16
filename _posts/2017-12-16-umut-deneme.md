@@ -1,5 +1,9 @@
 ---
-published: false
+published: true
+layout: post
+categories: Javascript
+tags:
+  - python
 ---
 Burası benim boş sayfam
 (% highlight python %)
