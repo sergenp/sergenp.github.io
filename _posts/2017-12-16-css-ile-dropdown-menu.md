@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 categories: Html
 tags:
@@ -37,8 +37,13 @@ padding:0; //listemin soldan girintisini 0'a eşitledim.
 }
 {%endhighlight%}
 Menü elamanlarım a etikeli ile tanımlandığından altı çizgili olacak ve ben bunu istemiyorum, o yüzden;
-{%highlight python%}
+{%highlight css%}
 a{
 text-decoration:none;//yazının üzeri,üstü veya altı çizgi özelliğini kullanmayacağımı belirttim.
+}
+{%endhighlight%}
+Menümün yatay menü olmasını istediğim için;
+{%highlight css%}
+ul.dmenu{
 }
 {%endhighlight%}
