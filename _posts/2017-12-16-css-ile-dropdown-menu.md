@@ -58,7 +58,7 @@ ul.dmenu{
 {%endhighlight%}
 Yazımın rengini beyaz ayarlayacağım 32 punto yazı boyutu ve 5 piksellik beyaz bir çerçeve tanımlayacağım.
 {%highlight css%}
-ul.menu >li a{
+ul.dmenu >li a{
   color:#fff; //yazı rengimi beyaz ayarlardım.
   display: block; //görüntü şeklini blok şeklinde ayarladım.
   font-size: 32pt; //yazı boyunutunu 32 punto ayarladım.
@@ -79,16 +79,16 @@ ul.dmenu ul{ //ilk menümün içindeki menüler olarak tanımladım.
 }
 {%endhighlight%}
 {%highlight css%}
-ul.menu ul li{
+ul.dmenu ul li{
   position: relative; //ikinci menümün pozisyonunu da bağıl olarak ayarladım.
 {%endhighlight%}
 Şimdi üzerine gittiğimiz zaman ikinci menümün açılmasını ve arka plan rengini değişeceğini belirtiyorum.
 {%highlight css%}
-ul.menu >li:hover >ul{ //ilk liste elemanımın üzerine gittiğimde, ikinci listemde olackaları belirtiyorum.
+ul.dmenu >li:hover >ul{ //ilk liste elemanımın üzerine gittiğimde, ikinci listemde olackaları belirtiyorum.
 visibility:visible; //görünebilirliği görünür yapıyorum.
 opacity:1; //opaklığı 1 ayarlıyorum.
 }
-ul.menu a:hover{
+ul.dmenu a:hover{
   background:#330033; //ve arka plan rengini koyu mor olarak ayarlıyorum.
 }
 {%endhighlight%}
