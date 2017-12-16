@@ -4,6 +4,8 @@ layout: post
 categories: Python
 tags:
   - eğitim
+  - python
+  - türkçe
 ---
 # Python ile Programlamaya Giriş
 ### Python'u Yüklemek ve Editör
@@ -12,7 +14,7 @@ Python'u indirmek için [buraya](https://www.python.org/downloads/ "Python İndi
 
 Editör olarakta Pycharm kullanıyorum, Pycharm indirmek için [buradan](https://www.jetbrains.com/pycharm/download/#section=windows "Pycharm İndirme Sayfası") Community versiyonunu ücretsiz olarak indirebilirsiniz.
 ### Değişken Tanımlama
-Python, yorumlayıcı bir dil olduğu değişken tanımlamak diğer dillere göre daha kolaydır. Değişkene atadığımız değere göre değişken türünü kendi tanımlar örnek olarak;
+Python, yorumlayıcı bir dil olduğu için değişken tanımlamak diğer dillere göre daha kolaydır. Değişkene atadığımız değere göre değişken türünü kendi tanımlar örnek olarak;
 {% highlight python %}
 yas=20 #tam sayı değer atadığımız için, yas'ı otomatik olarak int tanımlayacaktır.
 ad="Umut" #metin değeri atadığımız için, ad'ı otomatik olarak string/char tanımlayacaktır.
