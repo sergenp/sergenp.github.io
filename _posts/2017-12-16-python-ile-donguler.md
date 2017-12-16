@@ -1,7 +1,13 @@
 ---
-published: false
+published: true
+layout: post
+categories: Python
+tags:
+  - eğitim
+  - python
+  - türkçe
 ---
-# Python ile Döngüler, Listeler ve Kümeler
+# Python ile Döngüler
 
 ## Döngüler
 
@@ -15,7 +21,7 @@ while a<=10:
 {%endhighlight%}
 Burada "a, 10'dan küçük ve ya eşit olduğu sürece" koşulunu kullandık.
 
-## For Döngüsü
+### For Döngüsü
 
 {%highlight python%}
 for karakter in "Umut-Fırat":
@@ -30,14 +36,14 @@ for i range(1,10):
 	print(i)
 {%endhighlight%}
 1 ile 10 aralığında ki sayıları ekrana yazdırdık.
-### len() fonksiyonu
+#### len() fonksiyonu
 len() fonksiyonu uzunluktan gelir, içine girilen string değerinin kaç karakterden oluştuğunu belirtir örnek olarak;
 {%highlight python%}
 ad="Umut Fırat"
 print(len(ad))
 {%endhighlight%}
 Bu örneğimizin çıktısı 10 olacaktır, isim ve soyisim arasındaki boşluğu da karakter olarak sayıyor.
-### break ve continue deyimleri
+#### break ve continue deyimleri
 İki deyimide örnekler üzerinden açıklayacağım;
 {%highlight python%}
 while true: #sonsuz döngü oluşturdum.
@@ -57,5 +63,6 @@ for sayi in range(0,20)
         continue #sayının modu 0 ise ekrana sayı çifttir çıktısı verecek, ve sonrasında yazılan kodları yok sayarak tekrar döngüye başlayacak.
     print(sayi," sayisi tektir.")
 {%endhighlight%}
+
 
 
