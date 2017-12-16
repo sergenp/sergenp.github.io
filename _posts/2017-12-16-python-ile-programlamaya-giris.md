@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-categories: Python
+categories: Eğitim
 tags:
   - eğitim
   - python
@@ -112,6 +112,3 @@ else:
 {% endhighlight %}
 
 # Bu yazım buraya kadar, bir sonraki yazımda, döngüler, listeler ve kümeleri ele alacağım, okuduğunuz için teşekkür ederim.
-
-
-
