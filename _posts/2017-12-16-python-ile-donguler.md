@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-categories: Python
+categories: Eğitim
 tags:
   - eğitim
   - python
@@ -63,6 +63,3 @@ for sayi in range(0,20)
         continue #sayının modu 0 ise ekrana sayı çifttir çıktısı verecek, ve sonrasında yazılan kodları yok sayarak tekrar döngüye başlayacak.
     print(sayi," sayisi tektir.")
 {%endhighlight%}
-
-
-
