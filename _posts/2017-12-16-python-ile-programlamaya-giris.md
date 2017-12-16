@@ -94,11 +94,11 @@ If yapılarında dikkat edilmesi gereken yer, "**:**" parametresidir.
 #### Elif yapısı
 Elif çeviri olarak "eğer değilse" anlamına gelir, yani belirtilen koşul doğru değilse, elif koşulunun doğrulunu kontrol eder. Örnek olarak;
 {% highlight python %}
-a=2
-if a==1:
-	print("Sayi 1'dir")
-elif a==2:
-	print("Sayi 2'dir")
+a=11
+if a%2==1:
+	print("Sayı Tektir.")
+elif a%2==0:
+	print("Sayı Çifttir.")
 {% endhighlight %}
 #### Else yapısı
 Else çeviri olarak "değilse" anlamına gelir, belirtilen koşul/koşullar doğru değilse else parametresi içerisinde ki işlemler yapılır. Örnek olarak;
