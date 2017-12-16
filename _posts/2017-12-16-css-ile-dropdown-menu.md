@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-categories: Html
+categories: html
 tags:
   - eğitim
 ---
