@@ -6,6 +6,6 @@ tags:
   - python
 ---
 Burası benim boş sayfam
-(% highlight python %)
+{% highlight python %}
 print "merhaba"
-(% endhighlight %)
+{% endhighlight %}
