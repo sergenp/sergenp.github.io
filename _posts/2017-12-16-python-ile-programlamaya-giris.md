@@ -23,7 +23,7 @@ Ekrana yazdırmak istediğimi değer değişkense direk print(değişken_adı), 
 {% highlight python %}
 yas=20
 ad="Umut"
-print(ad,yas) ##veya
+print(ad,yas) #veya
 print("Merhaba",ad)
 {% endhighlight %}
 
