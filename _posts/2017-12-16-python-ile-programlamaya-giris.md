@@ -1,5 +1,9 @@
 ---
-published: false
+published: true
+layout: post
+categories: Python
+tags:
+  - eğitim
 ---
 # Python ile Programlamaya Giriş
 ### Python'u Yüklemek ve Editör
@@ -38,6 +42,74 @@ tarih=Int(input("Şimdiki Yıl Bilgisini Giriniz: "))
 yas=tarih-dogumyili
 print("Yaşınız ",yas,"'dır")
 {% endhighlight %}
+
+### Matematiksel İşlemler
+Direk örnekler üzerinden göstereceğim
+String/Char değişkenlerde;
+{% highlight python %}
+a="Mer"
+b="Haba"
+c=a+b
+print(c) #veya
+print(c,"Dünya)
+{% endhighlight %}
+Sayılarda;
+{% highlight python %}
+a=5
+b=10
+c=a+b
+d=b-a
+e=a*b
+f=a/b
+print(c)
+print(e-c)
+print((a*b)-(a+b)
+{% endhighlight %}
+Üst ve Mod alma;
+{% highlight python %}
+a=3**2
+print(a)
+b=2**3
+print(b)
+c=12%2
+print(c)
+{% endhighlight %}
+Sayıyı arttırmak
+{% highlight python %}
+a=5
+b=7
+a +=b #veya a=a+b
+b +=3 #veya b=b+3
+{% endhighlight %}
+
+### Kontrol Yapısı(if-elif-else)
+#### İf yapısı
+If çeviri olarak "Eğer" anlamına gelir, yani belirtilen koşul doğruysa yapılacak değerleri if satırının içine yazarız. Örnek olarak;
+{% highlight python %}
+a=Int(input("Bir sayı giriniz: ")
+if (a%2)==0:
+	print("Sayı Çifttir")
+{% endhighlight %}
+If yapılarında dikkat edilmesi gereken yer, "**:**" parametresidir.
+#### Elif yapısı
+Elif çeviri olarak "eğer değilse" anlamına gelir, yani belirtilen koşul doğru değilse, elif koşulunun doğrulunu kontrol eder. Örnek olarak;
+{% highlight python %}
+a=2
+if a==1:
+	print("Sayi 1'dir")
+elif a==2:
+	print("Sayi 2'dir")
+{% endhighlight %}
+#### Else yapısı
+Else çeviri olarak "değilse" anlamına gelir, belirtilen koşul/koşullar doğru değilse else parametresi içerisinde ki işlemler yapılır. Örnek olarak;
+{% highlight python %}
+if (a%2)==0:
+	print("Sayı Çifttir.")
+else:
+	print("Sayı Tektir.")
+{% endhighlight %}
+
+# Bu yazım buraya kadar, bir sonraki yazımda, döngüler, listeler ve kümeleri ele alacağım, okuduğunuz için teşekkür ederim.
 
 
 
