@@ -21,7 +21,7 @@ ad="Umut" #metin değeri atadığımız için, ad'ı otomatik olarak string/char
 {% endhighlight %}
 
 ### Ekrana Yazdırma
-Ekrana yazdırmak istediğimi değer değişkense direk print(değişken_adı), bir değişken değil ise print("tırnak içerisinde") yazabiliriz örnek olarak;
+Ekrana yazdırmak istediğimiz değer değişkense direk print(değişken_adı), bir değişken değil ise print("tırnak içerisinde") yazabiliriz örnek olarak;
 {% highlight python %}
 yas=20
 ad="Umut"
@@ -31,7 +31,7 @@ print("Merhaba",ad)
 
 
 ### Kullanıcıdan Değer İsteme
-Kullanıcıdan değer isterken, input komutunu kullanıyoruz, Python 2 versiyonlarında sayı olarak değer isterken input() komutunu, metin olarak değer isterken raw_input() komutunu kullanabilirsiniz. Ben 3 versiyonlarını örnek aldığım için yalnızca input() ile iki türlü değişkenide istetebilirsiniz, Örnek olarak;
+Kullanıcıdan değer isterken, input komutunu kullanıyoruz, Python 2 versiyonlarında sayı olarak değer isterken input() komutunu, metin olarak değer isterken raw_input() komutunu kullanabilirsiniz. Ben 3 versiyonlarını örnek aldığım için yalnızca input() ile iki türlü değişkeni de istetebilirsiniz, Örnek olarak;
 {% highlight python %}
 ad=input("Adinizi Giriniz ")
 yas=input("Yasizini Giriniz ")
