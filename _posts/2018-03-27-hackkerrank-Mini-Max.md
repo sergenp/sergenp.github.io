@@ -3,6 +3,8 @@ published: true
 layout: post
 title: Hackerrank - Mini-Max Problem
 categories: Python
+tags:
+  - algoritma
 ---
 ## Hackerrank Mini-Max problemi
 
@@ -50,5 +52,3 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
     miniMaxSum(arr)
 {% endhighlight %}
-
-
