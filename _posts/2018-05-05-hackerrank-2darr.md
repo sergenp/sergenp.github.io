@@ -55,7 +55,7 @@ liste = [[1, 1, 1, 0, 0, 0], [0, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0], [0, 9, 2, -
 
 liste[0][0] bize 1. elemanın 1.elementini verdiğini biliyoruz. liste[0][1], 1.satırın 2.elementi, liste[0][2], 1.satırın 3.elementi.... Yani elimizde bir matris var.
 
-Listemizin 1.satırını ele aldığımızda(liste[0]), ilk kum saatimiz:
+Listemizin 1.satırı başlangıç olarak ele aldığımızda(liste[0]), ilk kum saatimiz:
 <pre>
 liste[0][0]  liste[0][1]  liste[0][2]  
 			 liste[1][1]  
