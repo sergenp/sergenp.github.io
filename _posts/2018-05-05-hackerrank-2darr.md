@@ -99,7 +99,7 @@ def array2D(liste):
     return sum_val
 {% endhighlight %}
 
-Burada açıklamak gerekilen tek yer herhalde, liste[i][j:j+3] özellikle "[j:j+3]" kısmı olabilir.Python da listelerden bir dilim almak için yaptığımız bir syntax.Örnek verilecek olursa:
+Burada açıklamak gerekilen tek yer herhalde, **liste[i][j:j+3]** özellikle "**[j:j+3]**" kısmı olabilir.Python da listelerden bir dilim almak için yaptığımız bir syntax.Örnek verilecek olursa:
 
 {%highlight python%}
 >>> a = [0,1,2,3,4,5]
