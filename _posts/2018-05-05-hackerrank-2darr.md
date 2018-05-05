@@ -127,12 +127,12 @@ Burada açıklamak gerekilen tek yer herhalde, **liste[i][j:j+3]** özellikle "*
 #Eğer listeniz sıralı ise a[-1] size listenin en büyük elemanını verir.
 {% endhighlight %}
 
-Görüldüğü üzere bir dilim almak için, liste[başlangıç_indexi:bitiş_indexi] dememiz yeterli.Eğer:  
-liste = [0,1,2,3,4,5]  
-başlangıç_indexi = 2  
-bitiş_indexi = 5  
+Görüldüğü üzere bir dilim almak için, liste[başlangıç:bitiş] dememiz yeterli.Eğer:  
+_liste = [0,1,2,3,4,5]_
+_başlangıç = 2_  
+_bitiş = 5_  
 Olursa,  
-**liste[başlangıç_indexi:bitiş_indexi] = liste[2:5] -----> [ liste[2], liste[3], liste[4] ]**
+**liste[başlangıç:bitiş] = liste[2:5] -----> [ liste[2], liste[3], liste[4] ]**
 olarak bir liste geri dönderir. 
 > Verilen başlangıç_indexindeki değer listeye dahilken, bitiş_indexinin değeri listeye dahil değildir.
 
