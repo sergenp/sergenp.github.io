@@ -130,7 +130,7 @@ liste = [0,1,2,3,4,5]
 başlangıç_indexi = 2  
 bitiş_indexi = 5  
 Olursa,  
-liste[başlangıç_indexi:bitiş_indexi] = liste[2:5] -----> [liste[2], liste[3], liste[4]]  
+**liste[başlangıç_indexi:bitiş_indexi] = liste[2:5] -----> [liste[2], liste[3], liste[4]]**
 olarak bir liste geri dönderir. 
 > Verilen başlangıç_indexindeki değer listeye dahilken, bitiş_indexinin değeri listeye dahil değildir.
 
