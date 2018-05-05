@@ -71,7 +71,7 @@ Bu mantıkla yola çıkarsak, listemizin üstünden satır ve sütun olarak geç
 i = satır pozisyonu  
 j = sütun pozisyonu  
 
-olsun. İlk kum saatimiz için genelleştirme yaparsak,
+olsun. İlk kum saatimiz için genelleştirme yaparsak,  
 **i = 0 için, j = 0, 1, 2 ---> ilk satır  
 i = 1 için, j =    1 	---> ikinci satır  
 i = 2 için, j = 0, 1, 2 ---> üçüncü satır**  
