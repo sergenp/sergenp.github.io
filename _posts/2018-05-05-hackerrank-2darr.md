@@ -128,7 +128,7 @@ Burada açıklamak gerekilen tek yer herhalde, **liste[i][j:j+3]** özellikle "*
 {% endhighlight %}
 
 Görüldüğü üzere bir dilim almak için, liste[başlangıç:bitiş] dememiz yeterli.Eğer:  
-_liste = [0,1,2,3,4,5]_
+_liste = [0,1,2,3,4,5]_  
 _başlangıç = 2_  
 _bitiş = 5_  
 Olursa,  
