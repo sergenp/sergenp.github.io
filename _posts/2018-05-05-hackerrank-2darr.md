@@ -39,9 +39,11 @@ Bizden verilen dizide "kum saatleri" bulup, bu kum saatlerinin hangisinin içind
 </pre>
 Ki bu verilen dizi için en yüksek toplama sahip kum saati:
 
+<pre>
 2 4 4
   2
 1 2 4
+</pre>
 
 Yani çıktı olarak: 2 + 4 + 4 + 2 + 1 + 2 + 4 = 19 olmalı.
 
