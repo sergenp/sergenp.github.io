@@ -86,9 +86,9 @@ _**j == 3**_ olduğu zaman listenin sonuna gelmiş oluyoruz. Yani _**i**_ yi 1 a
   
 **i = 0 için, j = 3, 4, 5  
 i = 1 için, j =    4  
-i = 2 için, j = 3, 4, 5**
+i = 2 için, j = 3, 4, 5**  
 1.satır için son kum saatini verir. Ve 2.satıra geçeriz:  
-**i = 1 için, j = 0, 1, 2 
+**i = 1 için, j = 0, 1, 2  
 i = 2 için, j =    1  
 i = 3 için, j = 0, 1, 2**
 
