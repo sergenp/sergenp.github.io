@@ -107,7 +107,20 @@ def array2D(liste):
             if sum_val < temp:
                 sum_val = temp
     return sum_val
-{% endhighlight %}
+{% endhighlight %}  
+**i == 0 ve j == 0 için temp değerine bakalım**  
+- temp = sum(liste[0][0:3]) + liste[1][1] + sum(liste[2][0:3])  
+- temp = sum([1,1,1]) + 1 + sum([1,1,1])  
+- temp = 3 + 1 + 3  
+- temp = 7  
+- sum_val < temp ? : sum_val = temp  
+......  
+**Bu örnekte en büyük değer i == 3 ve j == 2 iken olan değer:**  
+- temp = sum(liste[3][2:5]) + liste[4][2] + sum(liste[5][2:5])  
+- temp = sum([2, 4, 4]) + 2 + sum([1,2,4])  
+- ...  
+- temp = 19  
+
 
 Burada açıklamak gerekilen tek yer herhalde, **liste[i][j:j+3]** özellikle "**[j:j+3]**" kısmı olabilir.Python da listelerden bir dilim almak için yaptığımız bir syntax.Örnek verilecek olursa:
 
