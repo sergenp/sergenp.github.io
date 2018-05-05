@@ -60,8 +60,8 @@ liste[0][0] bize 1. elemanın 1.elementini verdiğini biliyoruz. liste[0][1], 1.
 
 Listemizin 1.satırı başlangıç olarak ele aldığımızda(liste[0]), ilk kum saatimiz:
 <pre>
-liste[0][0]  liste[0][1]  liste[0][2]  
-			 liste[1][1]  
+liste[0][0]  liste[0][1]  liste[0][2]
+    liste[1][1]  
 liste[2][0]  liste[2][1]  liste[2][2]  
 </pre>
 
