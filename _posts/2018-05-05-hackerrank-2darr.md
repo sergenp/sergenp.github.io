@@ -73,7 +73,7 @@ j = sütun pozisyonu
 
 olsun. İlk kum saatimiz için genelleştirme yaparsak,  
 **i = 0 için, j = 0, 1, 2 ---> ilk satır  
-i = 1 için, j =    1 	---> ikinci satır  
+i = 1 için, j =    1	---> ikinci satır  
 i = 2 için, j = 0, 1, 2 ---> üçüncü satır**  
 olmalı ki bize ilk kum saatimiz verilsin. Peki 2. kum saati?:  
 **i = 0 için, j = 1, 2, 3  
