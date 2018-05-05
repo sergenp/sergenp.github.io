@@ -20,7 +20,7 @@ Problemde bize 6x6 bir dizi veriliyor şöyle ki:
 
 Bizden verilen dizide "kum saatleri" bulup, bu kum saatlerinin hangisinin içindeki rakamların toplamı en büyük, onu çıktı olarak vermemizi söylüyor. Kum saatleride bu verilen 6x6 lık dizi için budur:
 
-1 1 1&nbsp;&nbsp;&nbsp;1&nbsp;1&nbsp;0&nbsp;&nbsp;&nbsp;1&nbsp;0&nbsp;0&nbsp;&nbsp;&nbsp;0&nbsp;0&nbsp;0
+1 1 1   1 1 0   1 0 0   0 0 0
   1       0       0       0
 1 1 1   1 1 0   1 0 0   0 0 0
 
