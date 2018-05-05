@@ -68,7 +68,7 @@ liste[2][0]  liste[2][1]  liste[2][2]
 ##### Eee?
 
 Bize verilen soruda girilecek matrisin her zaman 6x6 olduğu söyleniyor. Bu yüzden kum saati sayımız sabit, yani 16 tane.  
-Bu mantıkla yola çıkarsak, listemizin üstünden satır ve sütun olarak geçmek ve 16 tane kum saati bulmamız lazım.
+Bu mantıkla yola çıkarsak, listemizin üstünden satır ve sütun olarak geçmek ve 16 tane kum saati bulmamız lazım.  
 i = satır pozisyonu  
 j = sütun pozisyonu  
 
