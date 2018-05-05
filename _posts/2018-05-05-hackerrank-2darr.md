@@ -125,6 +125,8 @@ Burada açıklamak gerekilen tek yer herhalde, **liste[i][j:j+3]** özellikle "*
 [1, 2, 3] # bu durumda ise a[1:-2] == a[1:len(a)-2] == a[1:4]
 #Bonus olaraktan,
 #Eğer listeniz sıralı ise a[-1] size listenin en büyük elemanını verir.
+>>>a[-1]
+5
 {% endhighlight %}
 
 Görüldüğü üzere bir dilim almak için, liste[başlangıç:bitiş] dememiz yeterli.Eğer:  
