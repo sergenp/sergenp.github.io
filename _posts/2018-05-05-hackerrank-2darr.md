@@ -11,11 +11,11 @@ title: Hackerrank - 2D Array - DS
 ### Problem
 Problemde bize 6x6 bir dizi veriliyor şöyle ki:
 
-1 1 1 0 0 0
-0 1 0 0 0 0
-1 1 1 0 0 0
-0 0 2 4 4 0
-0 0 0 2 0 0
+1 1 1 0 0 0  
+0 1 0 0 0 0  
+1 1 1 0 0 0  
+0 0 2 4 4 0  
+0 0 0 2 0 0  
 0 0 1 2 4 0
 
 Bizden verilen dizide "kum saatleri" bulup, bu kum saatlerinin hangisinin içindeki rakamların toplamı en büyük, onu çıktı olarak vermemizi söylüyor. Kum saatleride bu verilen 6x6 lık dizi için budur:
@@ -115,16 +115,3 @@ Olursa, liste[başlangıç_indexi:bitiş_indexi] = liste[2:5] -----> [liste[2], 
 > Verilen başlangıç_indexindeki değer listeye dahilken, bitiş_indexinin değeri listeye dahil değildir.
 
 Ve bu sum() fonksiyonu ne derseniz, Pythonun kendi build-in fonksiyonlarından biri. Bir **iterable**(list, dict, tuple...) alıp bu iterable nin elementlerinin toplamını dönderir. Daha fazla bilgi için [sum()](https://www.programiz.com/python-programming/methods/built-in/sum)
-
-
-
-
-
-
-
-
-
-
-
-
-
