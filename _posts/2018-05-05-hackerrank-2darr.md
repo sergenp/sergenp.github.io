@@ -125,11 +125,13 @@ Burada açıklamak gerekilen tek yer herhalde, **liste[i][j:j+3]** özellikle "*
 [1, 2, 3]
 {% endhighlight %}
 
-Görüldüğü üzere bir dilim almak için, liste[başlangıç_indexi:bitiş_indexi] dememiz yeterli.Eğer:
-liste = [0,1,2,3,4,5]
-başlangıç_indexi = 2
-bitiş_indexi = 5
-Olursa, liste[başlangıç_indexi:bitiş_indexi] = liste[2:5] -----> [liste[2], liste[3], liste[4]] olarak bir liste geri dönderir. 
+Görüldüğü üzere bir dilim almak için, liste[başlangıç_indexi:bitiş_indexi] dememiz yeterli.Eğer:  
+liste = [0,1,2,3,4,5]  
+başlangıç_indexi = 2  
+bitiş_indexi = 5  
+Olursa,  
+liste[başlangıç_indexi:bitiş_indexi] = liste[2:5] -----> [liste[2], liste[3], liste[4]]  
+olarak bir liste geri dönderir. 
 > Verilen başlangıç_indexindeki değer listeye dahilken, bitiş_indexinin değeri listeye dahil değildir.
 
 Ve bu sum() fonksiyonu ne derseniz, Pythonun kendi build-in fonksiyonlarından biri. Bir **iterable**(list, dict, tuple...) alıp bu iterable nin elementlerinin toplamını dönderir. Daha fazla bilgi için [sum()](https://www.programiz.com/python-programming/methods/built-in/sum)
