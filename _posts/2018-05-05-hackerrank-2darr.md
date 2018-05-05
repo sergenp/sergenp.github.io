@@ -123,6 +123,8 @@ Burada açıklamak gerekilen tek yer herhalde, **liste[i][j:j+3]** özellikle "*
 [4, 5]
 >>> a[1:-2] # a[:-2] demek listenin son 2 elemanını kes, gerisini dönder demek. Yani a[:-2] == a[0:len(a) - 2]
 [1, 2, 3] # bu durumda ise a[1:-2] == a[1:len(a)-2] == a[1:4]
+#Bonus olaraktan,
+#Eğer listeniz sıralı ise a[-1] size listenin en büyük elemanını verir.
 {% endhighlight %}
 
 Görüldüğü üzere bir dilim almak için, liste[başlangıç_indexi:bitiş_indexi] dememiz yeterli.Eğer:  
