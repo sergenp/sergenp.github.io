@@ -4,6 +4,7 @@ layout: post
 categories: Python
 tags:
   - algoritma
+title: Hackerrank - 2D Array - DS
 ---
 ## Hackerrank - 2D Array - DS
 
