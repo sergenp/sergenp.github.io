@@ -82,7 +82,7 @@ i = 1 için, j =    2
 i = 2 için, j = 1, 2, 3**
 olmalı.
 
-_j_ == 3 olduğu zaman listenin sonuna gelmiş oluyoruz. Yani _i_ yi 1 arttırmamız lazım.  
+_**j == 3**_ olduğu zaman listenin sonuna gelmiş oluyoruz. Yani _**i**_ yi 1 arttırmamız lazım.  
 
 ##### Kod olarak yazarsak.
 
