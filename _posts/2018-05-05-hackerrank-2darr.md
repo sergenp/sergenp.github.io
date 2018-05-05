@@ -10,13 +10,14 @@ title: Hackerrank - 2D Array - DS
 
 ### Problem
 Problemde bize 6x6 bir dizi veriliyor şöyle ki:
-
-1 1 1 0 0 0  
-0 1 0 0 0 0  
-1 1 1 0 0 0  
-0 0 2 4 4 0  
-0 0 0 2 0 0  
-0 0 1 2 4 0
+<pre>
+1  1  1  0  0  0    
+0  1  0  0  0  0  
+1  1  1  0  0  0  
+0  0  2  4  4  0  
+0  0  0  2  0  0  
+0  0  1  2  4  0
+</pre>
 
 Bizden verilen dizide "kum saatleri" bulup, bu kum saatlerinin hangisinin içindeki rakamların toplamı en büyük, onu çıktı olarak vermemizi söylüyor. Kum saatleride bu verilen 6x6 lık dizi için budur:
 <pre>
