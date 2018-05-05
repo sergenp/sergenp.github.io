@@ -19,7 +19,7 @@ Problemde bize 6x6 bir dizi veriliyor şöyle ki:
 0 0 1 2 4 0
 
 Bizden verilen dizide "kum saatleri" bulup, bu kum saatlerinin hangisinin içindeki rakamların toplamı en büyük, onu çıktı olarak vermemizi söylüyor. Kum saatleride bu verilen 6x6 lık dizi için budur:
-
+<pre>
 1 1 1   1 1 0   1 0 0   0 0 0
   1       0       0       0
 1 1 1   1 1 0   1 0 0   0 0 0
@@ -35,7 +35,7 @@ Bizden verilen dizide "kum saatleri" bulup, bu kum saatlerinin hangisinin içind
 0 0 2   0 2 4   2 4 4   4 4 0
   0       0       2       0
 0 0 1   0 1 2   1 2 4   2 4 0
-
+</pre>
 Ki bu verilen dizi için en yüksek toplama sahip kum saati:
 
 2 4 4
@@ -81,7 +81,7 @@ i = 1 için, j =    2
 i = 2 için, j = 1, 2, 3**
 olmalı.
 
-j == 3 olduğu zaman listenin sonuna gelmiş oluyoruz. Yani i yi 1 arttırmamız lazım.  
+_j_ == 3 olduğu zaman listenin sonuna gelmiş oluyoruz. Yani _i_ yi 1 arttırmamız lazım.  
 
 ##### Kod olarak yazarsak.
 
