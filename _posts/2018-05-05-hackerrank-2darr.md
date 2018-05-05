@@ -55,26 +55,33 @@ liste = [[1, 1, 1, 0, 0, 0], [0, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0], [0, 9, 2, -
 
 liste[0][0] bize 1. elemanın 1.elementini verdiğini biliyoruz. liste[0][1], 1.satırın 2.elementi, liste[0][2], 1.satırın 3.elementi.... Yani elimizde bir matris var.
 
-Listemizin 1.satırını ele aldığımızda(liste[0]), ilk kum saatimizin ilk satırı, liste[0][0] liste[0][1] liste[0][2] oluyor, yani 1 1 1. İlk kum saatimizin ortasındaki sayı ise, liste[1][1] olduğunu(1), görüyoruz.İlk kum saatimizin son satırı ise, liste[2][0] liste[2][1] liste[2][2], yani 1 1 1.
+Listemizin 1.satırını ele aldığımızda(liste[0]), ilk kum saatimizin ilk satırı, 
+liste[0][0] liste[0][1] liste[0][2]  
+oluyor, yani 1 1 1.  
+İlk kum saatimizin ortasındaki sayı ise,  
+liste[1][1] olduğunu(1), görüyoruz.  
+İlk kum saatimizin son satırı ise,  
+liste[2][0] liste[2][1] liste[2][2],  
+yani 1 1 1.
 
 ##### Eee?
 
-Bize verilen soruda girilecek matrisin her zaman 6x6 olduğu söyleniyor. Bu yüzden kum saati sayımız sabit, yani 16 tane.
+Bize verilen soruda girilecek matrisin her zaman 6x6 olduğu söyleniyor. Bu yüzden kum saati sayımız sabit, yani 16 tane.  
 Bu mantıkla yola çıkarsak, listemizin üstünden satır ve sütun olarak geçmek ve 16 tane kum saati bulmamız lazım.
-i = satır pozisyonu
-j = sütun pozisyonu
+i = satır pozisyonu  
+j = sütun pozisyonu  
 
 olsun. İlk kum saatimiz için genelleştirme yaparsak,
-**i = 0 için, j = 0, 1, 2 ---> ilk satır
-i = 1 için, j =    1 	---> ikinci satır
-i = 2 için, j = 0, 1, 2 ---> üçüncü satır**
-olmalı ki bize ilk kum saatimiz verilsin. Peki 2. kum saati?:
-i = 0 için, j = 1, 2, 3
-i = 1 için, j =    2
-i = 2 için, j = 1, 2, 3
+**i = 0 için, j = 0, 1, 2 ---> ilk satır  
+i = 1 için, j =    1 	---> ikinci satır  
+i = 2 için, j = 0, 1, 2 ---> üçüncü satır**  
+olmalı ki bize ilk kum saatimiz verilsin. Peki 2. kum saati?:  
+i = 0 için, j = 1, 2, 3  
+i = 1 için, j =    2  
+i = 2 için, j = 1, 2, 3  
 olmalı.
 
-j == 3 olduğu zaman listenin sonuna gelmiş oluyoruz. Yani i yi 1 arttırmamız lazım.
+j == 3 olduğu zaman listenin sonuna gelmiş oluyoruz. Yani i yi 1 arttırmamız lazım.  
 
 ##### Kod olarak yazarsak.
 
