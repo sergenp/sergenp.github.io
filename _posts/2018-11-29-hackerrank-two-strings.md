@@ -13,8 +13,11 @@ Bizden istenilen şey eğer string 1 in içindeki herhangi bir harf string 2 nin
 Python ile çözümü aşırı derecede kolay olduğu için bu gönderiyi yazmam bile biraz garibime gidiyor.Kısaca anlatmak gerekirse:
 
 Python da stringler içerisinde for döngüsü ile gezebiliyoruz. Yani:
+
+{% highlight python %}
 for i in "abcdefg":
 	print(i) # dersek
+{% endhighlight %}
 
 çıktı:
 
