@@ -37,13 +37,13 @@ g
 
 Olur.
 
-if "a" in "abcdefg" komutu bize "a" nın "abcdefg" de olup olmadığını True veya False döndererek bildirir. Bu if komutunda True dönderir.
+"a" in "abcdefg" komutu bize "a" nın "abcdefg" de olup olmadığını True veya False döndererek bildirir. Bu komut True dönderir.
 
 {% highlight python %}
-if "z" in "abcdefg" #-> False
-if "m" in "abcskl2adm" #-> True
-if "az" in "azvle" #-> True
-if "az" in "" #-> False 
+"z" in "abcdefg" #-> False
+"m" in "abcskl2adm" #-> True
+"az" in "azvle" #-> True
+"az" in "" #-> False 
 {% endhighlight %}
 
 Çözüm ise:
