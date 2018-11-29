@@ -43,6 +43,7 @@ Olur.
 "z" in "abcdefg" #-> False
 "m" in "abcskl2adm" #-> True
 "az" in "azvle" #-> True
+"az" in "avlez" #-> False
 "az" in "" #-> False 
 {% endhighlight %}
 
