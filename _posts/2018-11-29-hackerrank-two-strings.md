@@ -34,6 +34,7 @@ if "az" in "" -> False
 ... İçgüdüsel olaraktan doğrudur.
 
 Çözüm ise:
+{% highlight python %}
 #!/bin/python3
 
 import math
@@ -64,7 +65,7 @@ if __name__ == '__main__':
         fptr.write(result + '\n')
 
     fptr.close()
-
+{% endhighlight %}
 
 
 
