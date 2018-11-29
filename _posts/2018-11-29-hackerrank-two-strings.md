@@ -5,6 +5,32 @@ categories: Python
 tags:
   - algoritma
 ---
-## A New Post
+## Hackerrank Two Strings problemi
+Bizden istenilen şey eğer string 1 in içindeki herhangi bir harf string 2 nin içindeyse "YES" değilse "NO" döndermemiz.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+### Çözüm
+Python ile çözümü aşırı derecede kolay olduğu için bu gönderiyi yazmam bile biraz garibime gidiyor.Kısaca anlatmak gerekirse:
+
+Python da stringler içerisinde for döngüsü ile gezebiliyoruz. Yani:
+for i in "abcdefg":
+	print(i) # dersek
+
+çıktı:
+a
+b
+c
+d
+e
+f
+g
+
+Olur.
+
+if "a" in "abcdefg" komutu bize "a" nın "abcdefg" de olup olmadığını True veya False döndererek bildirir. Bu if komutunda True dönderir.
+if "z" in "abcdefg" -> False
+if "m" in "abcskl2adm" -> True
+if "az" in "azvle" -> True
+if "az" in "" -> False 
+... İçgüdüsel olaraktan doğrudur.
+
+
