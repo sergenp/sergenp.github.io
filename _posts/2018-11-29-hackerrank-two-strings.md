@@ -17,56 +17,43 @@ for i in "abcdefg":
 	print(i) # dersek
 
 çıktı:
+
 a
+
 b
+
 c
+
 d
+
 e
+
 f
+
 g
 
 Olur.
 
 if "a" in "abcdefg" komutu bize "a" nın "abcdefg" de olup olmadığını True veya False döndererek bildirir. Bu if komutunda True dönderir.
-if "z" in "abcdefg" -> False
-if "m" in "abcskl2adm" -> True
-if "az" in "azvle" -> True
-if "az" in "" -> False 
-... İçgüdüsel olaraktan doğrudur.
+
+{% highlight python %}
+if "z" in "abcdefg" #-> False
+if "m" in "abcskl2adm" #-> True
+if "az" in "azvle" #-> True
+if "az" in "" #-> False 
+{% endhighlight %}
 
 Çözüm ise:
 {% highlight python %}
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-# Complete the twoStrings function below.
 def twoStrings(s1, s2):
     for i in s1:
         if i in s2:
             return "YES"
     return "NO"
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+print(twoStrings("random", "strings")) # "YES" -> iki stringin içindede r var
+print(twoStrings("rank", "false")) # "YES" -> iki stringin içindede a var
+print(twoStrings("bir", "üç")) # "NO" -> iki stringin içinde ortak bir harf yok
 
-    q = int(input())
-
-    for q_itr in range(q):
-        s1 = input()
-
-        s2 = input()
-
-        result = twoStrings(s1, s2)
-
-        fptr.write(result + '\n')
-
-    fptr.close()
 {% endhighlight %}
-
-
 
