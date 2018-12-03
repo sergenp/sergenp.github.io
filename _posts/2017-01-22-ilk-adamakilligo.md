@@ -16,7 +16,7 @@ Geri sayım programı yapayım dedim.Hazır elimin altındada Go var.Problemi d�
    3. [ ] Alınan zaman bilgisi dakika:saniye cinsinden olsun
    4. [ ] Bu bilgileri array a kaydet
    5. [ ] mins,secs değişkenleri oluştur ve arraydakileri bunlara ata
-2. [ ]Geri sayım fonksiyonu oluştur
+2. [ ] Geri sayım fonksiyonu oluştur
    1. [ ] sonsuz loop oluştur
    2. [ ] Bir saniye bekle sonra,
    3. [ ] Kullanıcıya kalan zamanın bilgisini ver,
@@ -44,7 +44,7 @@ func main(){
    3. [ ] Alınan zaman bilgisi dakika:saniye cinsinden olsun
    4. [ ] Bu bilgileri array a kaydet
    5. [ ] mins,secs değişkenleri oluştur ve arraydakileri bunlara ata
-2. [ ]Geri sayım fonksiyonu oluştur
+2. [ ] Geri sayım fonksiyonu oluştur
    1. [ ] sonsuz loop oluştur
    2. [ ] Bir saniye bekle sonra,
    3. [ ] Kullanıcıya kalan zamanın bilgisini ver,
@@ -105,7 +105,7 @@ Main fonksiyonumuzu tamamlamış bulunmaktayız.Gördüğünüz üzere bu sefer 
    3. [X] Alınan zaman bilgisi dakika:saniye cinsinden olsun
    4. [X] Bu bilgileri array a kaydet
    5. [X] mins,secs değişkenleri oluştur ve arraydakileri bunlara ata
-2. [ ]Geri sayım fonksiyonu oluştur
+2. [ ] Geri sayım fonksiyonu oluştur
    1. [ ] sonsuz loop oluştur
    2. [ ] Bir saniye bekle sonra,
    3. [ ] Kullanıcıya kalan zamanın bilgisini ver,
@@ -158,7 +158,7 @@ func countdown(min,sec int) {
    3. [X] Alınan zaman bilgisi dakika:saniye cinsinden olsun
    4. [X] Bu bilgileri array a kaydet
    5. [X] mins,secs değişkenleri oluştur ve arraydakileri bunlara ata
-2. [ ]Geri sayım fonksiyonu oluştur
+2. [ ] Geri sayım fonksiyonu oluştur
    1. [X] sonsuz loop oluştur
    2. [X] Bir saniye bekle sonra,
    3. [X] Kullanıcıya kalan zamanın bilgisini ver,
@@ -217,7 +217,7 @@ func countdown(min,sec int) {
    3. [X] Alınan zaman bilgisi dakika:saniye cinsinden olsun
    4. [X] Bu bilgileri array a kaydet
    5. [X] mins,secs değişkenleri oluştur ve arraydakileri bunlara ata
-2. [X]Geri sayım fonksiyonu oluştur
+2. [X] Geri sayım fonksiyonu oluştur
    1. [X] sonsuz loop oluştur
    2. [X] Bir saniye bekle sonra,
    3. [X] Kullanıcıya kalan zamanın bilgisini ver,
