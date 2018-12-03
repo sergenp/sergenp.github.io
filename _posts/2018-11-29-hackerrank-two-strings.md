@@ -5,7 +5,6 @@ categories: Python
 tags:
   - algoritma
 title: Hackerrank - Two String
-author: Sergen Pekşen
 ---
 ## Hackerrank Two Strings problemi
 Bizden istenilen şey eğer string 1 in içindeki herhangi bir harf string 2 nin içindeyse "YES" değilse "NO" döndermemiz.
