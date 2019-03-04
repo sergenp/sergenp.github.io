@@ -4,7 +4,7 @@ layout: post
 categories: Python
 tags:
   - algoritma
-title: Hackerrank - Insert a node at the head of a linked list
+title: Hackerrank - Insert a Node at the Head of a linked list
 ---
 ##  Hackerrank - Insert a node at the head of a linked list
 
