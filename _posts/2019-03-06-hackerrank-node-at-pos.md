@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Hackerrank - Insert a Node at a specific position in a Linked List
 
