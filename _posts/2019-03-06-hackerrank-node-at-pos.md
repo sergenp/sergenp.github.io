@@ -4,6 +4,7 @@ layout: post
 categories: Python
 tags:
   - algoritma
+  - bağlı liste
 title: Hackerrank - Insert a Node at a specific position in a Linked List
 ---
 ## Hackerrank - Insert a Node at a specific position in a Linked List
@@ -42,4 +43,3 @@ def insertNodeAtPosition(head, data, position):
     # en sonunda headimizi returnlayalım
     return head
 {% endhighlight %}
-
