@@ -7,13 +7,6 @@ tags:
   - bağlı liste
 title: Hackerrank - Insert a Node at a specific position in a Linked List
 ---
-## Hackerrank - Insert a Node at a specific position in a Linked List
-
-Arkayadır önedir derken en sonunda da istediğimiz yere ekleme yapmak istiyoruz.
-
-
-### Noluyor?
-
 İlk öncelikle bir bakalım ne oluyor.
 ![Linkedlist_insert_at_pos.png]({{site.baseurl}}/images/linked_list/Linkedlist_insert_at_pos.png)
 
