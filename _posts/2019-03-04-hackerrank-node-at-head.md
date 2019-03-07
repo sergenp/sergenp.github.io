@@ -7,8 +7,6 @@ tags:
   - bağlı liste
 title: Hackerrank - Insert a Node at the Head of a Linked List
 ---
-##  Hackerrank - Insert a Node at the Head of a Linked List
-
 Linked listi önceki gönderimde göstermiştim.
 ![linked_list.jpeg]({{site.baseurl}}/images/linked_list/linked_list.jpeg)
 
