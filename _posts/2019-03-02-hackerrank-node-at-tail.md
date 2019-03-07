@@ -5,6 +5,7 @@ layout: post
 categories: Python
 tags:
   - algoritma
+  - bağlı liste
 ---
 ## Insert a Node at the Tail of a Linked List - Hackerrank
 
@@ -68,4 +69,4 @@ En son **Node** mizi bulunca bu **Node** nin sonrasında(next) **None** olduğun
     return head
 {% endhighlight %}
 
-En sonunda da **Head Node** umuzu return ediyoruz. 
+En sonunda da **Head Node** umuzu return ediyoruz.
