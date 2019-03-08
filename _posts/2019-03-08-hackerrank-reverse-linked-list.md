@@ -5,6 +5,7 @@ categories: Python
 tags:
   - algoritma
   - bağlı liste
+  - hackerrank
 title: Hackerrank - Reverse Linked List
 ---
 ![reverse_linked_list.png]({{site.baseurl}}/images/linked_list/reverse_linked_list.png)
