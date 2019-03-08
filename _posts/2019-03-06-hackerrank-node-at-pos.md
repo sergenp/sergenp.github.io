@@ -5,6 +5,7 @@ categories: Python
 tags:
   - algoritma
   - bağlı liste
+  - hackerrank
 title: Hackerrank - Insert a Node at a specific position in a Linked List
 ---
 İlk öncelikle bir bakalım ne oluyor.
