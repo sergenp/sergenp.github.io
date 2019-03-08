@@ -4,6 +4,7 @@ layout: post
 categories: Python
 tags:
   - algoritma
+  - hackerrank
 title: Hackerrank - Two String
 ---
 ## Hackerrank Two Strings problemi
@@ -60,4 +61,3 @@ print(twoStrings("rank", "false")) # "YES" -> iki stringin içindede a var
 print(twoStrings("bir", "üç")) # "NO" -> iki stringin içinde ortak bir harf yok
 
 {% endhighlight %}
-
