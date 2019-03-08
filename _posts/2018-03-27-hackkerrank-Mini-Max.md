@@ -5,6 +5,7 @@ title: Hackerrank - Mini-Max Problem
 categories: Python
 tags:
   - algoritma
+  - hackerrank
 ---
 ## Hackerrank Mini-Max problemi
 
