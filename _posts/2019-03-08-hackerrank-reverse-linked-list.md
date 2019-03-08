@@ -1,5 +1,10 @@
 ---
 published: false
+layout: post
+categories: Python
+tags:
+  - algoritma
+  - bağlı liste
 ---
 ![reverse_linked_list.png]({{site.baseurl}}/images/linked_list/reverse_linked_list.png)
 
